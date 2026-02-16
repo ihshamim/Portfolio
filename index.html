@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth overflow-x-hidden">
 <head>
-  
-  <meta name="p:domain_verify" content="f115a3df5f1b09991dcf9bc86a0d6082"/>
-  
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <title>IH Shamim - Portfolio | Graphic Designer & Computer Engineer</title>
     
-    <!-- Favicon (Added for Branding) -->
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJYAy8X2dDvxxHZE9wXlhwLCezWxRZaqYN8pdu2TpEVi-j6rU_X2pbto83yy3jGF6AQ6t4a_3IeUU17tamiutUIUZldhWzvJOah8L-gemG3CFgg52VNE4ZVKxTpzwYODDuBhWG5MmNhxpbdav5YAU3TuzcV6B_PPcN_FIiZmpqQ6qs3-0/s1600/IH%20Shamim%20-%20Passport%20Size%20Photo_20250825_104114_0000.png">
 
     <!-- SEO Meta Tags -->
@@ -16,47 +13,6 @@
     <meta name="keywords" content="IH Shamim, Graphic Designer Bangladesh, Computer Engineer, Video Editor, Web Designer, Portfolio, UI/UX Design, Branding Expert, IT Support Specialist">
     <meta name="author" content="IH Shamim">
     
-    <!-- Search Engine Crawling -->
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.ihshamim.blogspot.com/">
-
-    <!-- Schema Markup for SEO (Added) -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "IH Shamim",
-      "url": "https://www.ihshamim.blogspot.com/",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJYAy8X2dDvxxHZE9wXlhwLCezWxRZaqYN8pdu2TpEVi-j6rU_X2pbto83yy3jGF6AQ6t4a_3IeUU17tamiutUIUZldhWzvJOah8L-gemG3CFgg52VNE4ZVKxTpzwYODDuBhWG5MmNhxpbdav5YAU3TuzcV6B_PPcN_FIiZmpqQ6qs3-0/s1600/IH%20Shamim%20-%20Passport%20Size%20Photo_20250825_104114_0000.png",
-      "jobTitle": ["Graphic Designer", "Computer Engineer", "Video Editor"],
-      "worksFor": {
-        "@type": "Organization",
-        "name": "P.N. Composite Ltd"
-      },
-      "sameAs": [
-        "https://www.facebook.com/ihshamim.fb/",
-        "https://bd.linkedin.com/in/ih-shamim-52902517b",
-        "https://twitter.com/ih_shamim",
-        "https://www.instagram.com/ihshamim.bd/",
-        "https://youtube.com/c/ihshamim"
-      ]
-    }
-    </script>
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.ihshamim.blogspot.com/">
-    <meta property="og:title" content="IH Shamim - Portfolio">
-    <meta property="og:description" content="Official portfolio website of IH Shamim. A creative Graphic Designer and Computer Engineer from Bangladesh, specializing in Branding and IT Support.">
-    <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJYAy8X2dDvxxHZE9wXlhwLCezWxRZaqYN8pdu2TpEVi-j6rU_X2pbto83yy3jGF6AQ6t4a_3IeUU17tamiutUIUZldhWzvJOah8L-gemG3CFgg52VNE4ZVKxTpzwYODDuBhWG5MmNhxpbdav5YAU3TuzcV6B_PPcN_FIiZmpqQ6qs3-0/s1600/IH%20Shamim%20-%20Passport%20Size%20Photo_20250825_104114_0000.png">
-
-    <!-- Twitter Card -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://www.ihshamim.blogspot.com/">
-    <meta property="twitter:title" content="IH Shamim - Portfolio">
-    <meta property="twitter:description" content="Official portfolio website of IH Shamim. A creative Graphic Designer and Computer Engineer from Bangladesh, specializing in Branding and IT Support.">
-    <meta property="twitter:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJYAy8X2dDvxxHZE9wXlhwLCezWxRZaqYN8pdu2TpEVi-j6rU_X2pbto83yy3jGF6AQ6t4a_3IeUU17tamiutUIUZldhWzvJOah8L-gemG3CFgg52VNE4ZVKxTpzwYODDuBhWG5MmNhxpbdav5YAU3TuzcV6B_PPcN_FIiZmpqQ6qs3-0/s1600/IH%20Shamim%20-%20Passport%20Size%20Photo_20250825_104114_0000.png">
-
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -138,6 +94,7 @@
             width: 100%;
             max-width: 100vw;
             position: relative;
+            -webkit-overflow-scrolling: touch; 
         }
 
         body {
@@ -214,7 +171,6 @@
             align-items: center;
             box-shadow: 0 10px 30px -10px rgba(0,0,0,0.2);
             transition: all 0.3s ease;
-            transform: translateZ(0);
             will-change: transform;
         }
 
@@ -344,14 +300,8 @@
             height: 100%;
             overflow: clip;
         }
-        
-        ::view-transition-new(root) {
-            z-index: 9999;
-        }
-        
-        ::view-transition-old(root) {
-            z-index: 1;
-        }
+        ::view-transition-new(root) { z-index: 9999; }
+        ::view-transition-old(root) { z-index: 1; }
     </style>
 </head>
 <body class="antialiased overflow-x-hidden w-full relative">
@@ -385,13 +335,13 @@
                 IH <span class="text-accent">Shamim</span>
             </a>
             
-            <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+            <nav class="hidden lg:flex items-center gap-6 text-sm font-medium">
                 <a href="#home" class="nav-link">Home</a>
                 <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
                 <a href="#skills" class="nav-link">Skills</a>
-                <a href="#experience" class="nav-link">Experience</a>
-                <a href="#education" class="nav-link">Education</a>
                 <a href="#portfolio" class="nav-link">Work</a>
+                <a href="#payment" class="nav-link">Payment</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </nav>
 
@@ -400,7 +350,7 @@
                     <i class="fas fa-sun"></i>
                 </button>
                 <a href="#contact" class="hidden md:inline-flex px-5 py-2 rounded-full border border-border text-sm text-text hover:bg-card transition-colors bg-bg/20 backdrop-blur-sm whitespace-nowrap">Let's Talk</a>
-                <button id="mobile-menu-button" class="md:hidden w-8 h-8 rounded-full bg-card/50 flex items-center justify-center text-text border border-border">
+                <button id="mobile-menu-button" class="lg:hidden w-8 h-8 rounded-full bg-card/50 flex items-center justify-center text-text border border-border">
                     <i class="fas fa-bars"></i>
                 </button>
             </div>
@@ -410,10 +360,10 @@
             <button id="close-mobile-menu" class="absolute top-8 right-8 w-10 h-10 flex items-center justify-center text-text/50 hover:text-text rounded-full hover:bg-white/10 transition-colors"><i class="fas fa-times text-3xl"></i></button>
             <a href="#home" class="hover:text-accent transition-colors transform hover:scale-110 duration-300">Home</a>
             <a href="#about" class="hover:text-accent transition-colors transform hover:scale-110 duration-300">About</a>
+            <a href="#services" class="hover:text-accent transition-colors transform hover:scale-110 duration-300">Services</a>
             <a href="#skills" class="hover:text-accent transition-colors transform hover:scale-110 duration-300">Skills</a>
-            <a href="#experience" class="hover:text-accent transition-colors transform hover:scale-110 duration-300">Experience</a>
-            <a href="#education" class="hover:text-accent transition-colors transform hover:scale-110 duration-300">Education</a>
             <a href="#portfolio" class="hover:text-accent transition-colors transform hover:scale-110 duration-300">Work</a>
+            <a href="#payment" class="hover:text-accent transition-colors transform hover:scale-110 duration-300">Payment</a>
             <a href="#contact" class="hover:text-accent transition-colors transform hover:scale-110 duration-300">Contact</a>
         </div>
     </header>
@@ -467,7 +417,7 @@
                     <div class="absolute -inset-4 bg-gradient-to-r from-accent via-purple-500 to-accent2 rounded-xl blur-xl opacity-30 group-hover:opacity-80 transition duration-1000 group-hover:duration-200 animate-pulse-slow"></div>
                     <div class="absolute inset-0 bg-card rounded-2xl rotate-6 group-hover:rotate-12 transition-transform duration-500 border border-white/10"></div>
                     <div class="absolute inset-0 bg-accent/20 rounded-2xl -rotate-6 group-hover:-rotate-12 transition-transform duration-500"></div>
-                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJYAy8X2dDvxxHZE9wXlhwLCezWxRZaqYN8pdu2TpEVi-j6rU_X2pbto83yy3jGF6AQ6t4a_3IeUU17tamiutUIUZldhWzvJOah8L-gemG3CFgg52VNE4ZVKxTpzwYODDuBhWG5MmNhxpbdav5YAU3TuzcV6B_PPcN_FIiZmpqQ6qs3-0/s1600/IH%20Shamim%20-%20Passport%20Size%20Photo_20250825_104114_0000.png" alt="IH Shamim" class="relative rounded-2xl w-full object-cover shadow-2xl transform transition-transform duration-500 group-hover:scale-[1.02] border border-white/5">
+                    <img loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJYAy8X2dDvxxHZE9wXlhwLCezWxRZaqYN8pdu2TpEVi-j6rU_X2pbto83yy3jGF6AQ6t4a_3IeUU17tamiutUIUZldhWzvJOah8L-gemG3CFgg52VNE4ZVKxTpzwYODDuBhWG5MmNhxpbdav5YAU3TuzcV6B_PPcN_FIiZmpqQ6qs3-0/s1600/IH%20Shamim%20-%20Passport%20Size%20Photo_20250825_104114_0000.png" alt="IH Shamim - Professional Portrait" class="relative rounded-2xl w-full object-cover shadow-2xl transform transition-transform duration-500 group-hover:scale-[1.02] border border-white/5">
                 </div>
                 
                 <div>
@@ -501,6 +451,51 @@
                             <p class="text-sm text-muted">Years Experience</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Services Section (New) -->
+    <section id="services" class="py-16 w-full overflow-hidden bg-card/30 border-y border-border">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4 text-text">My <span class="text-gradient-accent">Services</span></h2>
+                <p class="text-muted">What I can do for you.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Service 1 -->
+                <div class="spotlight-card p-6 text-center hover:-translate-y-2 transition-transform duration-300">
+                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-accent/10 flex items-center justify-center text-accent text-2xl">
+                        <i class="fas fa-pen-nib"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-text mb-2">Graphic Design</h3>
+                    <p class="text-sm text-muted">Creative visual concepts, logo design, branding, and print media.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="spotlight-card p-6 text-center hover:-translate-y-2 transition-transform duration-300">
+                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-accent2/10 flex items-center justify-center text-accent2 text-2xl">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-text mb-2">Video Editing</h3>
+                    <p class="text-sm text-muted">Professional video editing, post-production, and motion graphics.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="spotlight-card p-6 text-center hover:-translate-y-2 transition-transform duration-300">
+                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-500 text-2xl">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-text mb-2">Web Design</h3>
+                    <p class="text-sm text-muted">Modern, responsive, and user-friendly website interfaces.</p>
+                </div>
+                <!-- Service 4 -->
+                <div class="spotlight-card p-6 text-center hover:-translate-y-2 transition-transform duration-300">
+                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-green-500/10 flex items-center justify-center text-green-500 text-2xl">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-text mb-2">IT Support</h3>
+                    <p class="text-sm text-muted">Computer hardware troubleshooting and software solutions.</p>
                 </div>
             </div>
         </div>
@@ -725,8 +720,24 @@
                                 </p>
                             </div>
                             <span class="inline-flex self-start sm:self-center px-4 py-1.5 rounded-full bg-accent/10 border border-accent/20 text-xs font-mono whitespace-nowrap shadow-sm text-accent">
-                                Jan 2025 - Present
+                                Jul 2025 - Present
                             </span>
+                        </div>
+                        
+                        <!-- Enhanced Duration Counter with Attractive Clock Icon -->
+                        <div class="mb-5 p-4 rounded-xl bg-gradient-to-r from-card to-accent/5 border border-accent/20 relative overflow-hidden group-hover:border-accent/40 transition-colors">
+                            <div class="flex items-center justify-between relative z-10">
+                                <div>
+                                    <p class="text-[10px] uppercase tracking-widest text-accent/80 font-bold mb-1 flex items-center gap-2">
+                                        <i class="fas fa-hourglass-half animate-pulse"></i> Time Elapsed
+                                    </p>
+                                    <p class="text-sm md:text-base font-mono text-white font-bold duration-counter tracking-tight" data-start="2025-07-01" data-end="present">Calculating...</p>
+                                </div>
+                            </div>
+                            <!-- Background Decorative Clock Icon -->
+                            <div class="absolute -right-5 -bottom-5 text-accent/10 text-7xl transform rotate-12 group-hover:scale-110 group-hover:rotate-0 transition-all duration-500">
+                                <i class="fas fa-clock"></i>
+                            </div>
                         </div>
                         
                         <div class="border-t border-border/50 pt-4 mt-auto">
@@ -755,8 +766,24 @@
                                 </p>
                             </div>
                             <span class="inline-flex self-start sm:self-center px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs font-mono whitespace-nowrap text-muted">
-                                Jan 2021 - Dec 2024
+                                Jan 2021 - June 2025
                             </span>
+                        </div>
+
+                        <!-- Enhanced Duration Counter with Attractive Clock Icon -->
+                        <div class="mb-5 p-4 rounded-xl bg-gradient-to-r from-card to-white/5 border border-white/10 relative overflow-hidden group-hover:border-accent/30 transition-colors">
+                            <div class="flex items-center justify-between relative z-10">
+                                <div>
+                                    <p class="text-[10px] uppercase tracking-widest text-muted font-bold mb-1 flex items-center gap-2">
+                                        <i class="fas fa-history"></i> Total Duration
+                                    </p>
+                                    <p class="text-sm md:text-base font-mono text-text/90 font-bold duration-counter tracking-tight" data-start="2021-01-01" data-end="2025-06-30">Calculating...</p>
+                                </div>
+                            </div>
+                            <!-- Background Decorative Clock Icon -->
+                            <div class="absolute -right-5 -bottom-5 text-white/5 text-7xl transform rotate-12 group-hover:scale-110 group-hover:rotate-0 transition-all duration-500">
+                                <i class="fas fa-clock"></i>
+                            </div>
                         </div>
 
                         <div class="border-t border-border/50 pt-4 mt-auto">
@@ -789,6 +816,22 @@
                             </span>
                         </div>
 
+                        <!-- Enhanced Duration Counter with Attractive Clock Icon -->
+                        <div class="mb-5 p-4 rounded-xl bg-gradient-to-r from-card to-white/5 border border-white/10 relative overflow-hidden group-hover:border-accent/30 transition-colors">
+                            <div class="flex items-center justify-between relative z-10">
+                                <div>
+                                    <p class="text-[10px] uppercase tracking-widest text-muted font-bold mb-1 flex items-center gap-2">
+                                        <i class="fas fa-history"></i> Total Duration
+                                    </p>
+                                    <p class="text-sm md:text-base font-mono text-text/90 font-bold duration-counter tracking-tight" data-start="2018-01-01" data-end="2020-12-31">Calculating...</p>
+                                </div>
+                            </div>
+                            <!-- Background Decorative Clock Icon -->
+                            <div class="absolute -right-5 -bottom-5 text-white/5 text-7xl transform rotate-12 group-hover:scale-110 group-hover:rotate-0 transition-all duration-500">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                        </div>
+
                         <div class="border-t border-border/50 pt-4 mt-auto">
                             <h5 class="text-xs font-bold text-text/70 uppercase tracking-widest mb-3">Key Responsibilities</h5>
                             <ul class="grid sm:grid-cols-2 gap-x-4 gap-y-2 text-sm text-muted">
@@ -817,6 +860,22 @@
                             <span class="inline-flex self-start sm:self-center px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs font-mono whitespace-nowrap text-muted">
                                 Jan 2017 - Dec 2017
                             </span>
+                        </div>
+
+                        <!-- Enhanced Duration Counter with Attractive Clock Icon -->
+                        <div class="mb-5 p-4 rounded-xl bg-gradient-to-r from-card to-white/5 border border-white/10 relative overflow-hidden group-hover:border-accent/30 transition-colors">
+                            <div class="flex items-center justify-between relative z-10">
+                                <div>
+                                    <p class="text-[10px] uppercase tracking-widest text-muted font-bold mb-1 flex items-center gap-2">
+                                        <i class="fas fa-history"></i> Total Duration
+                                    </p>
+                                    <p class="text-sm md:text-base font-mono text-text/90 font-bold duration-counter tracking-tight" data-start="2017-01-01" data-end="2017-12-31">Calculating...</p>
+                                </div>
+                            </div>
+                            <!-- Background Decorative Clock Icon -->
+                            <div class="absolute -right-5 -bottom-5 text-white/5 text-7xl transform rotate-12 group-hover:scale-110 group-hover:rotate-0 transition-all duration-500">
+                                <i class="fas fa-clock"></i>
+                            </div>
                         </div>
 
                         <div class="border-t border-border/50 pt-4 mt-auto">
@@ -870,6 +929,7 @@
                                 <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>Department:</strong> CSE</li>
                                 <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>Board:</strong> DUET</li>
                                 <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>Session:</strong> 2026</li>
+                                <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>Duration:</strong> 4 Years</li>
                                 <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>Grade:</strong> In the Process</li>
                                 <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>CGPA:</strong> In the Process</li>
                                 <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>Percentage:</strong> In the Process</li>
@@ -900,6 +960,7 @@
                                 <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>Department:</strong> CSE</li>
                                 <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>Board:</strong> BTEB</li>
                                 <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>Session:</strong> 2021 - 2022</li>
+                                <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>Duration:</strong> 4 Years</li>
                                 <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>Grade:</strong> In the Process</li>
                                 <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>CGPA:</strong> In the Process</li>
                                 <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>Percentage:</strong> In the Process</li>
@@ -930,6 +991,7 @@
                                 <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>Department:</strong> Humanities</li>
                                 <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>Board:</strong> Dhaka Board</li>
                                 <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>Session:</strong> 2019 - 2020</li>
+                                <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>Duration:</strong> 2 Years</li>
                                 <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>Grade:</strong> A</li>
                                 <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>GPA:</strong> 4.33/5.00</li>
                                 <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>Percentage:</strong> 86.6%</li>
@@ -960,6 +1022,7 @@
                                 <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>Department:</strong> Humanities</li>
                                 <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>Board:</strong> Barishal Board</li>
                                 <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>Session:</strong> 2017 - 2018</li>
+                                <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>Duration:</strong> 2 Years</li>
                                 <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>Grade:</strong> A</li>
                                 <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>GPA:</strong> 4.00/5.00</li>
                                 <li class="flex items-start gap-2 hover:text-text transition-colors"><i class="fas fa-angle-right text-accent mt-1"></i> <strong>Percentage:</strong> 80%</li>
@@ -972,79 +1035,68 @@
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="py-12 relative overflow-hidden w-full">
+    <!-- Awards & Certificates Section (New) -->
+    <section class="py-16 w-full overflow-hidden bg-card/30 border-y border-border">
         <div class="container mx-auto px-6">
-            <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold mb-4 text-text">My <span class="text-gradient-accent">Services</span></h2>
-                <p class="text-muted">High-quality services for your business growth.</p>
-            </div>
-
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Service 1 -->
-                <div class="spotlight-card p-8 group flex flex-col items-center text-center">
-                    <div class="w-14 h-14 rounded-full bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center text-2xl text-white mb-6 group-hover:scale-110 transition-transform shadow-lg shadow-blue-500/20">
-                        <i class="fas fa-paint-brush"></i>
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Awards -->
+                <div>
+                    <h2 class="text-3xl font-bold mb-8 text-text flex items-center gap-3">
+                        <i class="fas fa-trophy text-yellow-500"></i> My <span class="text-gradient-accent">Awards</span>
+                    </h2>
+                    <div class="space-y-4">
+                        <div class="spotlight-card p-4 flex items-center gap-4 hover:translate-x-2 transition-transform">
+                            <div class="w-12 h-12 rounded-full bg-yellow-500/10 flex items-center justify-center text-yellow-500 text-xl font-bold">1</div>
+                            <div>
+                                <h4 class="font-bold text-text">Best Designer of the Year</h4>
+                                <p class="text-sm text-muted">2024 - Tech Valley Design</p>
+                            </div>
+                        </div>
+                        <div class="spotlight-card p-4 flex items-center gap-4 hover:translate-x-2 transition-transform">
+                            <div class="w-12 h-12 rounded-full bg-yellow-500/10 flex items-center justify-center text-yellow-500 text-xl font-bold">2</div>
+                            <div>
+                                <h4 class="font-bold text-text">Creative Excellence Award</h4>
+                                <p class="text-sm text-muted">2023 - Digital Summit BD</p>
+                            </div>
+                        </div>
+                        <div class="spotlight-card p-4 flex items-center gap-4 hover:translate-x-2 transition-transform">
+                            <div class="w-12 h-12 rounded-full bg-yellow-500/10 flex items-center justify-center text-yellow-500 text-xl font-bold">3</div>
+                            <div>
+                                <h4 class="font-bold text-text">Employee of the Month</h4>
+                                <p class="text-sm text-muted">Dec 2022 - P.N. Composite Ltd</p>
+                            </div>
+                        </div>
                     </div>
-                    <h3 class="text-xl font-bold mb-3 text-text">Graphic Design</h3>
-                    <p class="text-muted text-sm leading-relaxed">
-                        Visual identity, logo design, print materials, and creative marketing assets that stand out.
-                    </p>
-                </div>
-                
-                <!-- Service 2 -->
-                <div class="spotlight-card p-8 group flex flex-col items-center text-center">
-                    <div class="w-14 h-14 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-2xl text-white mb-6 group-hover:scale-110 transition-transform shadow-lg shadow-purple-500/20">
-                        <i class="fas fa-video"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-text">Video Editing</h3>
-                    <p class="text-muted text-sm leading-relaxed">
-                        Professional cuts, transitions, color grading, and motion graphics for compelling storytelling.
-                    </p>
-                </div>
-
-                <!-- Service 3 -->
-                <div class="spotlight-card p-8 group flex flex-col items-center text-center">
-                    <div class="w-14 h-14 rounded-full bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center text-2xl text-white mb-6 group-hover:scale-110 transition-transform shadow-lg shadow-orange-500/20">
-                        <i class="fas fa-music"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-text">Music & Audio</h3>
-                    <p class="text-muted text-sm leading-relaxed">
-                        Music composition, vocal recording, mixing, and mastering for crystal clear audio productions.
-                    </p>
                 </div>
 
-                <!-- Service 4 -->
-                <div class="spotlight-card p-8 group flex flex-col items-center text-center">
-                    <div class="w-14 h-14 rounded-full bg-gradient-to-br from-green-500 to-emerald-500 flex items-center justify-center text-2xl text-white mb-6 group-hover:scale-110 transition-transform shadow-lg shadow-green-500/20">
-                        <i class="fas fa-desktop"></i>
+                <!-- Certificates -->
+                <div>
+                    <h2 class="text-3xl font-bold mb-8 text-text flex items-center gap-3">
+                        <i class="fas fa-certificate text-accent"></i> My <span class="text-gradient-accent">Certificates</span>
+                    </h2>
+                    <div class="space-y-4">
+                        <div class="spotlight-card p-4 flex items-center gap-4 hover:translate-x-2 transition-transform">
+                            <div class="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center text-accent text-xl"><i class="fas fa-scroll"></i></div>
+                            <div>
+                                <h4 class="font-bold text-text">Advanced Graphic Design</h4>
+                                <p class="text-sm text-muted">Udemy - 2022</p>
+                            </div>
+                        </div>
+                        <div class="spotlight-card p-4 flex items-center gap-4 hover:translate-x-2 transition-transform">
+                            <div class="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center text-accent text-xl"><i class="fas fa-scroll"></i></div>
+                            <div>
+                                <h4 class="font-bold text-text">Web Development Fundamentals</h4>
+                                <p class="text-sm text-muted">Coursera - 2023</p>
+                            </div>
+                        </div>
+                        <div class="spotlight-card p-4 flex items-center gap-4 hover:translate-x-2 transition-transform">
+                            <div class="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center text-accent text-xl"><i class="fas fa-scroll"></i></div>
+                            <div>
+                                <h4 class="font-bold text-text">Hardware & Networking</h4>
+                                <p class="text-sm text-muted">BTEB - 2021</p>
+                            </div>
+                        </div>
                     </div>
-                    <h3 class="text-xl font-bold mb-3 text-text">IT Support</h3>
-                    <p class="text-muted text-sm leading-relaxed">
-                        Hardware troubleshooting, software installation, and system optimization for peak performance.
-                    </p>
-                </div>
-
-                <!-- Service 5 -->
-                <div class="spotlight-card p-8 group flex flex-col items-center text-center">
-                    <div class="w-14 h-14 rounded-full bg-gradient-to-br from-yellow-400 to-orange-400 flex items-center justify-center text-2xl text-white mb-6 group-hover:scale-110 transition-transform shadow-lg shadow-yellow-500/20">
-                        <i class="fas fa-lightbulb"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-text">Branding</h3>
-                    <p class="text-muted text-sm leading-relaxed">
-                        Developing cohesive brand strategies and visual guidelines to establish market presence.
-                    </p>
-                </div>
-
-                <!-- Service 6 -->
-                <div class="spotlight-card p-8 group flex flex-col items-center text-center">
-                    <div class="w-14 h-14 rounded-full bg-gradient-to-br from-indigo-500 to-violet-500 flex items-center justify-center text-2xl text-white mb-6 group-hover:scale-110 transition-transform shadow-lg shadow-indigo-500/20">
-                        <i class="fas fa-chart-pie"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-text">Data Analysis</h3>
-                    <p class="text-muted text-sm leading-relaxed">
-                        Transforming complex data into understandable visual reports for informed decision making.
-                    </p>
                 </div>
             </div>
         </div>
@@ -1104,9 +1156,9 @@
             <!-- Portfolio Grid -->
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="portfolio-grid">
                 
-                <!-- Project 1: App Design (Web) -->
+                <!-- Project 1: Mobile App -->
                 <div class="portfolio-item group relative rounded-2xl overflow-hidden cursor-pointer spotlight-card h-72 md:h-80" data-category="web">
-                    <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=600&h=400" alt="Study BD App" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=600&h=400" alt="Mobile App" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     
                     <!-- Stronger Dark Gradient Overlay for better readability -->
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-black/90 to-transparent opacity-100 z-10"></div>
@@ -1114,130 +1166,124 @@
                     <!-- Text Content (On Top of Overlay) -->
                     <div class="absolute inset-0 flex flex-col justify-end p-6 z-20">
                         <div class="transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                            <span class="text-accent text-xs font-bold uppercase tracking-wider mb-1 block drop-shadow-lg">Mobile UI/UX</span>
-                            <h4 class="text-xl font-bold text-white mb-2 drop-shadow-lg">Study BD App</h4>
+                            <span class="text-accent text-xs font-bold uppercase tracking-wider mb-1 block drop-shadow-lg">App Development</span>
+                            <h4 class="text-xl font-bold text-white mb-2 drop-shadow-lg">Mobile App</h4>
                             <div class="flex gap-3 mb-4 text-gray-200 text-lg drop-shadow-lg">
-                                <i class="fab fa-figma" title="Figma"></i>
-                                <i class="fas fa-mobile-alt" title="Mobile Design"></i>
+                                <i class="fab fa-figma" title="UI/UX"></i>
+                                <i class="fas fa-mobile-alt" title="Development"></i>
                             </div>
-                            <a href="https://studybdapp.blogspot.com" target="_blank" class="inline-flex items-center gap-2 text-white text-sm font-medium hover:text-accent transition-colors drop-shadow-lg">
+                            <a href="#contact" class="inline-flex items-center gap-2 text-white text-sm font-medium hover:text-accent transition-colors drop-shadow-lg">
                                 View Project <i class="fas fa-external-link-alt"></i>
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 2: Music Video (Video) -->
+                <!-- Project 2: Video Editing (Updated Image) -->
                 <div class="portfolio-item group relative rounded-2xl overflow-hidden cursor-pointer spotlight-card h-72 md:h-80" data-category="video">
-                    <img src="https://cdn-images.dzcdn.net/images/cover/2cc75492b1356fb7f51b8cf74471a0c6/0x1900-000000-80-0-0.jpg" alt="Keno Kanna Ase" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <img src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/403/posts/107607/final_image/video_editing_03.jpg" alt="Video Editing" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-black/90 to-transparent opacity-100 z-10"></div>
                     
                     <div class="absolute inset-0 flex flex-col justify-end p-6 z-20">
                         <div class="transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                            <span class="text-accent text-xs font-bold uppercase tracking-wider mb-1 block drop-shadow-lg">Video Production</span>
-                            <h4 class="text-xl font-bold text-white mb-2 drop-shadow-lg">Keno Kanna Ase</h4>
+                            <span class="text-accent text-xs font-bold uppercase tracking-wider mb-1 block drop-shadow-lg">Post Production</span>
+                            <h4 class="text-xl font-bold text-white mb-2 drop-shadow-lg">Video Editing</h4>
                             <div class="flex gap-3 mb-4 text-gray-200 text-lg drop-shadow-lg">
                                 <i class="fas fa-video" title="Premiere Pro"></i>
                                 <i class="fas fa-music" title="Audio Editing"></i>
                             </div>
-                            <a href="https://youtube.com/c/ihshamim" target="_blank" class="inline-flex items-center gap-2 text-white text-sm font-medium hover:text-accent transition-colors drop-shadow-lg">
-                                Watch Video <i class="fas fa-play"></i>
+                            <a href="#contact" class="inline-flex items-center gap-2 text-white text-sm font-medium hover:text-accent transition-colors drop-shadow-lg">
+                                Watch Reel <i class="fas fa-play"></i>
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 3: Brand Identity (Graphic) -->
-                <div class="portfolio-item group relative rounded-2xl overflow-hidden cursor-pointer spotlight-card h-72 md:h-80" data-category="graphic">
-                    <img src="https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&q=80&w=600&h=400" alt="Tech Brand" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                <!-- Project 3: Website -->
+                <div class="portfolio-item group relative rounded-2xl overflow-hidden cursor-pointer spotlight-card h-72 md:h-80" data-category="web">
+                    <img src="https://media.licdn.com/dms/image/v2/D5612AQGWyeFhLQomJA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1698353496292?e=2147483647&v=beta&t=y1YXKJX81hG9Zvp33cI8KZQAFDp0MaX6Ff7Gyov1QrY" alt="Website" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-black/90 to-transparent opacity-100 z-10"></div>
                     
                     <div class="absolute inset-0 flex flex-col justify-end p-6 z-20">
                         <div class="transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                            <span class="text-accent text-xs font-bold uppercase tracking-wider mb-1 block drop-shadow-lg">Branding</span>
-                            <h4 class="text-xl font-bold text-white mb-2 drop-shadow-lg">Tech Brand Identity</h4>
+                            <span class="text-accent text-xs font-bold uppercase tracking-wider mb-1 block drop-shadow-lg">Web Development</span>
+                            <h4 class="text-xl font-bold text-white mb-2 drop-shadow-lg">Website</h4>
                             <div class="flex gap-3 mb-4 text-gray-200 text-lg drop-shadow-lg">
-                                <i class="fas fa-pen-nib" title="Illustrator"></i>
-                                <i class="fas fa-palette" title="Photoshop"></i>
+                                <i class="fas fa-laptop-code" title="Coding"></i>
+                                <i class="fab fa-wordpress" title="CMS"></i>
                             </div>
                             <a href="#contact" class="inline-flex items-center gap-2 text-white text-sm font-medium hover:text-accent transition-colors drop-shadow-lg">
-                                View Details <i class="fas fa-arrow-right"></i>
+                                Visit Site <i class="fas fa-external-link-alt"></i>
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 4: Marketing Flyer (Graphic) -->
+                <!-- Project 4: Graphic Design -->
                 <div class="portfolio-item group relative rounded-2xl overflow-hidden cursor-pointer spotlight-card h-72 md:h-80" data-category="graphic">
-                    <img src="https://images.unsplash.com/photo-1572044162444-ad60f128bdea?auto=format&fit=crop&q=80&w=600&h=400" alt="Event Flyer" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <img src="https://kritagyata.in/wp-content/uploads/2024/01/graphic-design-1500-x-900-picture-lpuf40e9jm621ews.jpg" alt="Graphic Design" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-black/90 to-transparent opacity-100 z-10"></div>
                     
                     <div class="absolute inset-0 flex flex-col justify-end p-6 z-20">
                         <div class="transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                            <span class="text-accent text-xs font-bold uppercase tracking-wider mb-1 block drop-shadow-lg">Print Design</span>
-                            <h4 class="text-xl font-bold text-white mb-2 drop-shadow-lg">Corporate Event Flyer</h4>
+                            <span class="text-accent text-xs font-bold uppercase tracking-wider mb-1 block drop-shadow-lg">Visual Art</span>
+                            <h4 class="text-xl font-bold text-white mb-2 drop-shadow-lg">Graphic Design</h4>
                             <div class="flex gap-3 mb-4 text-gray-200 text-lg drop-shadow-lg">
-                                <i class="fas fa-print" title="Print Ready"></i>
+                                <i class="fas fa-pen-nib" title="Illustrator"></i>
                                 <i class="fas fa-image" title="Photoshop"></i>
                             </div>
                             <a href="#contact" class="inline-flex items-center gap-2 text-white text-sm font-medium hover:text-accent transition-colors drop-shadow-lg">
-                                View Details <i class="fas fa-arrow-right"></i>
+                                View Designs <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 5: Intro Animation (Video) -->
+                <!-- Project 5: Content Creation -->
                 <div class="portfolio-item group relative rounded-2xl overflow-hidden cursor-pointer spotlight-card h-72 md:h-80" data-category="video">
-                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=600&h=400" alt="Channel Intro" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbXEvK1Gwy0vcNxPEg4mvSlbRd87Fw68714T1Wiy0l&s" alt="Content Creation" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-black/90 to-transparent opacity-100 z-10"></div>
                     
                     <div class="absolute inset-0 flex flex-col justify-end p-6 z-20">
                         <div class="transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                            <span class="text-accent text-xs font-bold uppercase tracking-wider mb-1 block drop-shadow-lg">Motion Graphics</span>
-                            <h4 class="text-xl font-bold text-white mb-2 drop-shadow-lg">YouTube Channel Intro</h4>
+                            <span class="text-accent text-xs font-bold uppercase tracking-wider mb-1 block drop-shadow-lg">Creative</span>
+                            <h4 class="text-xl font-bold text-white mb-2 drop-shadow-lg">Content Creation</h4>
                             <div class="flex gap-3 mb-4 text-gray-200 text-lg drop-shadow-lg">
-                                <i class="fas fa-film" title="After Effects"></i>
-                                <i class="fas fa-magic" title="VFX"></i>
+                                <i class="fas fa-camera" title="Photography"></i>
+                                <i class="fas fa-microphone" title="Audio"></i>
                             </div>
                             <a href="#contact" class="inline-flex items-center gap-2 text-white text-sm font-medium hover:text-accent transition-colors drop-shadow-lg">
-                                Watch Video <i class="fas fa-play"></i>
+                                See Content <i class="fas fa-play"></i>
                             </a>
                         </div>
                     </div>
                 </div>
 
-                 <!-- Project 6: E-commerce Site (Web) -->
+                 <!-- Project 6: Computer Hardware -->
                  <div class="portfolio-item group relative rounded-2xl overflow-hidden cursor-pointer spotlight-card h-72 md:h-80" data-category="web">
-                    <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&q=80&w=600&h=400" alt="Online Store" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <img src="https://media.istockphoto.com/id/619052288/photo/laptop-and-computer-parts.jpg?s=612x612&w=0&k=20&c=ejIT6Owx79tk4E3z4FxS16kWQHPHL3VDE7TQRMauMLU=" alt="Computer Hardware" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-black/90 to-transparent opacity-100 z-10"></div>
                     
                     <div class="absolute inset-0 flex flex-col justify-end p-6 z-20">
                         <div class="transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                            <span class="text-accent text-xs font-bold uppercase tracking-wider mb-1 block drop-shadow-lg">Web Design</span>
-                            <h4 class="text-xl font-bold text-white mb-2 drop-shadow-lg">Fashion Store UI</h4>
+                            <span class="text-accent text-xs font-bold uppercase tracking-wider mb-1 block drop-shadow-lg">IT Solutions</span>
+                            <h4 class="text-xl font-bold text-white mb-2 drop-shadow-lg">Computer Hardware</h4>
                             <div class="flex gap-3 mb-4 text-gray-200 text-lg drop-shadow-lg">
-                                <i class="fas fa-shopping-cart" title="E-commerce"></i>
-                                <i class="fas fa-laptop-code" title="Web"></i>
+                                <i class="fas fa-microchip" title="Hardware"></i>
+                                <i class="fas fa-tools" title="Support"></i>
                             </div>
                             <a href="#contact" class="inline-flex items-center gap-2 text-white text-sm font-medium hover:text-accent transition-colors drop-shadow-lg">
-                                View Project <i class="fas fa-external-link-alt"></i>
+                                Learn More <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>
                     </div>
                 </div>
 
-            </div>
-            
-            <div class="text-center mt-12">
-                <a href="#contact" class="inline-block px-8 py-3 rounded-full border border-border text-text hover:bg-accent hover:text-white hover:border-accent transition-all duration-300 group">
-                    View All Projects <i class="fas fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
-                </a>
             </div>
         </div>
     </section>
@@ -1256,12 +1302,13 @@
             <div class="relative max-w-6xl mx-auto">
                 <div class="swiper photo-slider !overflow-visible pb-16">
                     <div class="swiper-wrapper">
-                        <!-- Photo 1 -->
-                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group">
+                        
+                        <!-- --- ORIGINAL SET (4 Images) --- -->
+                        
+                        <!-- Photo 1: Formal -->
+                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group cursor-pointer">
                             <div class="relative w-full h-full rounded-3xl overflow-hidden border border-white/10 shadow-2xl transition-all duration-500 group-hover:border-accent/50 group-hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] bg-bg">
                                 <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoCky1ZRH7_5WXCrv3OQEKgjGOeVw0L3Zhn78-piiLi0GW0OuPx5Jb8-HK-acs5jbRmMAMg7gvIOtf-ey5BTnM7YJT0rw0XUrZARP1k0u6KheP9Su0RXvhhyphenhyphen3Nc3wPelNLBuSoofSO92E7YlP-iyfBGBsCMSiamgMHmfVFv3rYD0YbWKhA2TrYhCWz908/s320/IH%20Shamim%20-%20Passport%20Size%20Photo_20250709_222649_0000.png" alt="Formal Look">
-                                
-                                <!-- Glassmorphism Overlay -->
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6">
                                     <div class="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
                                         <span class="text-accent text-xs font-bold uppercase tracking-wider mb-2 block">Professional</span>
@@ -1271,8 +1318,8 @@
                             </div>
                         </div>
 
-                        <!-- Photo 2 -->
-                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group">
+                        <!-- Photo 2: Office -->
+                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group cursor-pointer">
                             <div class="relative w-full h-full rounded-3xl overflow-hidden border border-white/10 shadow-2xl transition-all duration-500 group-hover:border-accent/50 group-hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] bg-bg">
                                 <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghOmDpsYjfVSTAoRle7SPT6ePnWz9Qe4yLRUOhwdS64Mh1kAkslIpzB4b3PuZwYn8Y2ytBssBk6QbaEjzdGA3VdM__OyN_E-ZhxeER0k_u3eAguF-65zbh8ofsyGiNq-aesZCotTAV3KMIxtnwZY2jVhMPeWDFzyH2Q8P7knJikZ3y5hiv2XFtxhyphenhyphendnKg/s320/freepik__rok-dslr-portrait-of-professional-and-elegant-busi__20612.png" alt="Office Vibes">
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6">
@@ -1284,8 +1331,8 @@
                             </div>
                         </div>
 
-                        <!-- Photo 3 -->
-                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group">
+                        <!-- Photo 3: Casual -->
+                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group cursor-pointer">
                             <div class="relative w-full h-full rounded-3xl overflow-hidden border border-white/10 shadow-2xl transition-all duration-500 group-hover:border-accent/50 group-hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] bg-bg">
                                 <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1jFHV-juWaBex88lRQ-5HGssZj-Xbm8a4jU_XO5G9of587TQ4W1r7uoQ_iEwFVTjunbkWn7SV7kw5GnuQHiyICxXQjWmgN_N_IWpjJk6TJMvJJUdhs91E0isgZcYjT3XWOw-F13FDk0swqWyvCk4-RFI5XkFrOp3nZJoUi6S6_Ixakq-OeW9eKUumuT4/s320/freepik__rok-dslr-portrait-of-professional-and-elegant-busi__20610.png" alt="Casual Style">
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6">
@@ -1297,21 +1344,8 @@
                             </div>
                         </div>
 
-                        <!-- Photo 4 -->
-                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group">
-                            <div class="relative w-full h-full rounded-3xl overflow-hidden border border-white/10 shadow-2xl transition-all duration-500 group-hover:border-accent/50 group-hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] bg-bg">
-                                <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWSoKZ0bIJtA2vbH7WrsXZOJjNK_oByYrBsyIH0H1PexJJk95DVf0MrpGXYLU0OPKLTjEzD6uI_eeP-0zLzPX69M3sFyqHB_-Kjz-n6tV2OkNXE30sq8YRQeE0GCYmuYqBy2gr6k9RuDO-I8jKwPsCaGTDihArEbmyyrnpino9urNPWWZA0-AHZLnnQwk/s320/IMG_20250319_112244.png" alt="Outdoor">
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6">
-                                    <div class="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                                        <span class="text-accent text-xs font-bold uppercase tracking-wider mb-2 block">Travel</span>
-                                        <h3 class="text-white text-xl font-bold">Outdoor</h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Photo 5 -->
-                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group">
+                        <!-- Photo 4: Studio -->
+                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group cursor-pointer">
                             <div class="relative w-full h-full rounded-3xl overflow-hidden border border-white/10 shadow-2xl transition-all duration-500 group-hover:border-accent/50 group-hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] bg-bg">
                                 <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoCfLNj6hdiQF4FAbNy_TrbezdLdRwPVlZq457qjdXO0-8S20omOTrBV3hRC1hJh-4dyPT9OnhaMRXkFZHjlRe1_BPniWvbEuzuyrEsnXpQKjLWNhF4_huKFz9t6l2VdmR9GloPKeFnaVqpXwXMy5X02P4fgXHsjWIECst2j1uoGtS8wqYMR_D9Bw5Vpg/s320/freepik__rok-dslr-portrait-of-professional-and-elegant-busi__20616.png" alt="Studio Shot">
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6">
@@ -1323,8 +1357,64 @@
                             </div>
                         </div>
 
-                        <!-- Duplicated Slides to fix loop gap issue -->
-                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group">
+                        <!-- --- NEW SET (4 Images) --- -->
+
+                        <!-- Photo 5: Outdoor -->
+                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group cursor-pointer">
+                            <div class="relative w-full h-full rounded-3xl overflow-hidden border border-white/10 shadow-2xl transition-all duration-500 group-hover:border-accent/50 group-hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] bg-bg">
+                                <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuNElUx9oEwQx61iExvz9Qz66-Cjjk_bzz-7Es680v0trEgS4VKD_6ST9KWiug4eiNAAbtVe-6-MQNTL2DeJiiwwUrWnPpIa94k5LMNVAviKumIwyD-QrOnszC5K5c7tXlKZifXB2EX5-B197fMjmUJnmsD9KHTqXjhyphenhyphenJ-KQS1mP20jRV_sR8duEGbeUY/s320/1708955010583.jpg" alt="Outdoor Moment">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6">
+                                    <div class="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                                        <span class="text-accent text-xs font-bold uppercase tracking-wider mb-2 block">Travel</span>
+                                        <h3 class="text-white text-xl font-bold">Outdoor</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Photo 6: AI Portrait 1 -->
+                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group cursor-pointer">
+                            <div class="relative w-full h-full rounded-3xl overflow-hidden border border-white/10 shadow-2xl transition-all duration-500 group-hover:border-accent/50 group-hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] bg-bg">
+                                <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1IMf_82S3s6g2t8bU8d_on9Ee9Dxz5JGXH4f1Yi3btttF17zcTi5JI7ax8ch7M_rQpPpe1KBkTegcntMCxs5xpE13uSURiZ2igdT9sUCRCQToYw9WOpSi8I5Tsz1qppFojD9tWLLsTgmSg9ec2szQy876SU9FRDSigEU8ioEjmF-KKL2yIziN0STA5nA/s320/Gemini_Generated_Image_e6fhove6fhove6fh.png" alt="AI Art 1">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6">
+                                    <div class="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                                        <span class="text-accent text-xs font-bold uppercase tracking-wider mb-2 block">Creative</span>
+                                        <h3 class="text-white text-xl font-bold">Digital Art</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Photo 7: AI Portrait 2 -->
+                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group cursor-pointer">
+                            <div class="relative w-full h-full rounded-3xl overflow-hidden border border-white/10 shadow-2xl transition-all duration-500 group-hover:border-accent/50 group-hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] bg-bg">
+                                <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiU6ut-KCHi5fpcORJtFF6KyD20VbEo5Rxs-20-HQHL-JZqFbXdcFPxBuCAx1eZTC0lXfwV3trwXYeWHOu0hBaGXKcwZCouOcA2F1jh9tp1ERha8bqDXw5LPiG3LYthXZxCVLNGnUSClaa8p3n98iXbbYnuCFihHUUhqmNIyBtTjTHhGgsWfbkbFRMEaO8/s320/Gemini_Generated_Image_1y6bwc1y6bwc1y6b.png" alt="AI Art 2">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6">
+                                    <div class="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                                        <span class="text-accent text-xs font-bold uppercase tracking-wider mb-2 block">Creative</span>
+                                        <h3 class="text-white text-xl font-bold">Concept Art</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Photo 8: AI Portrait 3 -->
+                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group cursor-pointer">
+                            <div class="relative w-full h-full rounded-3xl overflow-hidden border border-white/10 shadow-2xl transition-all duration-500 group-hover:border-accent/50 group-hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] bg-bg">
+                                <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1iQDnCwTsSv-seXgXUqJR943ihoLOQRs20Te7c50vvk7vg3i2Qxxs64AZ74PPDnus1skPsMTDURDzmJ1DmNGZxrVd7KyzW6Gc2oCygC7wEEI7J6LIXKhzYg1sMG3pHgE1YsKAm8EKZYlqG9o0EzOIG2d5jk1pAYQu-sal0f_ZP8sMI9J5zlGSqxBhSk4/s320/Gemini_Generated_Image_d8l2had8l2had8l2.png" alt="AI Art 3">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6">
+                                    <div class="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                                        <span class="text-accent text-xs font-bold uppercase tracking-wider mb-2 block">Portrait</span>
+                                        <h3 class="text-white text-xl font-bold">Artistic View</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- --- DUPLICATES (For Loop) with Full Effects --- -->
+                        
+                        <!-- Duplicate 1: Formal -->
+                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group cursor-pointer">
                             <div class="relative w-full h-full rounded-3xl overflow-hidden border border-white/10 shadow-2xl transition-all duration-500 group-hover:border-accent/50 group-hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] bg-bg">
                                 <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoCky1ZRH7_5WXCrv3OQEKgjGOeVw0L3Zhn78-piiLi0GW0OuPx5Jb8-HK-acs5jbRmMAMg7gvIOtf-ey5BTnM7YJT0rw0XUrZARP1k0u6KheP9Su0RXvhhyphenhyphen3Nc3wPelNLBuSoofSO92E7YlP-iyfBGBsCMSiamgMHmfVFv3rYD0YbWKhA2TrYhCWz908/s320/IH%20Shamim%20-%20Passport%20Size%20Photo_20250709_222649_0000.png" alt="Formal Look">
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6">
@@ -1335,7 +1425,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group">
+
+                        <!-- Duplicate 2: Office -->
+                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group cursor-pointer">
                             <div class="relative w-full h-full rounded-3xl overflow-hidden border border-white/10 shadow-2xl transition-all duration-500 group-hover:border-accent/50 group-hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] bg-bg">
                                 <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghOmDpsYjfVSTAoRle7SPT6ePnWz9Qe4yLRUOhwdS64Mh1kAkslIpzB4b3PuZwYn8Y2ytBssBk6QbaEjzdGA3VdM__OyN_E-ZhxeER0k_u3eAguF-65zbh8ofsyGiNq-aesZCotTAV3KMIxtnwZY2jVhMPeWDFzyH2Q8P7knJikZ3y5hiv2XFtxhyphenhyphendnKg/s320/freepik__rok-dslr-portrait-of-professional-and-elegant-busi__20612.png" alt="Office Vibes">
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6">
@@ -1346,7 +1438,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group">
+
+                        <!-- Duplicate 3: Casual -->
+                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group cursor-pointer">
                             <div class="relative w-full h-full rounded-3xl overflow-hidden border border-white/10 shadow-2xl transition-all duration-500 group-hover:border-accent/50 group-hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] bg-bg">
                                 <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1jFHV-juWaBex88lRQ-5HGssZj-Xbm8a4jU_XO5G9of587TQ4W1r7uoQ_iEwFVTjunbkWn7SV7kw5GnuQHiyICxXQjWmgN_N_IWpjJk6TJMvJJUdhs91E0isgZcYjT3XWOw-F13FDk0swqWyvCk4-RFI5XkFrOp3nZJoUi6S6_Ixakq-OeW9eKUumuT4/s320/freepik__rok-dslr-portrait-of-professional-and-elegant-busi__20610.png" alt="Casual Style">
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6">
@@ -1357,18 +1451,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group">
-                            <div class="relative w-full h-full rounded-3xl overflow-hidden border border-white/10 shadow-2xl transition-all duration-500 group-hover:border-accent/50 group-hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] bg-bg">
-                                <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWSoKZ0bIJtA2vbH7WrsXZOJjNK_oByYrBsyIH0H1PexJJk95DVf0MrpGXYLU0OPKLTjEzD6uI_eeP-0zLzPX69M3sFyqHB_-Kjz-n6tV2OkNXE30sq8YRQeE0GCYmuYqBy2gr6k9RuDO-I8jKwPsCaGTDihArEbmyyrnpino9urNPWWZA0-AHZLnnQwk/s320/IMG_20250319_112244.png" alt="Outdoor">
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6">
-                                    <div class="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                                        <span class="text-accent text-xs font-bold uppercase tracking-wider mb-2 block">Travel</span>
-                                        <h3 class="text-white text-xl font-bold">Outdoor</h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group">
+
+                        <!-- Duplicate 4: Studio -->
+                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group cursor-pointer">
                             <div class="relative w-full h-full rounded-3xl overflow-hidden border border-white/10 shadow-2xl transition-all duration-500 group-hover:border-accent/50 group-hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] bg-bg">
                                 <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoCfLNj6hdiQF4FAbNy_TrbezdLdRwPVlZq457qjdXO0-8S20omOTrBV3hRC1hJh-4dyPT9OnhaMRXkFZHjlRe1_BPniWvbEuzuyrEsnXpQKjLWNhF4_huKFz9t6l2VdmR9GloPKeFnaVqpXwXMy5X02P4fgXHsjWIECst2j1uoGtS8wqYMR_D9Bw5Vpg/s320/freepik__rok-dslr-portrait-of-professional-and-elegant-busi__20616.png" alt="Studio Shot">
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6">
@@ -1379,14 +1464,65 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Duplicate 5: Outdoor -->
+                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group cursor-pointer">
+                            <div class="relative w-full h-full rounded-3xl overflow-hidden border border-white/10 shadow-2xl transition-all duration-500 group-hover:border-accent/50 group-hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] bg-bg">
+                                <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuNElUx9oEwQx61iExvz9Qz66-Cjjk_bzz-7Es680v0trEgS4VKD_6ST9KWiug4eiNAAbtVe-6-MQNTL2DeJiiwwUrWnPpIa94k5LMNVAviKumIwyD-QrOnszC5K5c7tXlKZifXB2EX5-B197fMjmUJnmsD9KHTqXjhyphenhyphenJ-KQS1mP20jRV_sR8duEGbeUY/s320/1708955010583.jpg" alt="Outdoor Moment">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6">
+                                    <div class="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                                        <span class="text-accent text-xs font-bold uppercase tracking-wider mb-2 block">Travel</span>
+                                        <h3 class="text-white text-xl font-bold">Outdoor</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Duplicate 6: AI Art 1 -->
+                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group cursor-pointer">
+                            <div class="relative w-full h-full rounded-3xl overflow-hidden border border-white/10 shadow-2xl transition-all duration-500 group-hover:border-accent/50 group-hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] bg-bg">
+                                <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1IMf_82S3s6g2t8bU8d_on9Ee9Dxz5JGXH4f1Yi3btttF17zcTi5JI7ax8ch7M_rQpPpe1KBkTegcntMCxs5xpE13uSURiZ2igdT9sUCRCQToYw9WOpSi8I5Tsz1qppFojD9tWLLsTgmSg9ec2szQy876SU9FRDSigEU8ioEjmF-KKL2yIziN0STA5nA/s320/Gemini_Generated_Image_e6fhove6fhove6fh.png" alt="AI Art 1">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6">
+                                    <div class="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                                        <span class="text-accent text-xs font-bold uppercase tracking-wider mb-2 block">Creative</span>
+                                        <h3 class="text-white text-xl font-bold">Digital Art</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Duplicate 7: AI Art 2 -->
+                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group cursor-pointer">
+                            <div class="relative w-full h-full rounded-3xl overflow-hidden border border-white/10 shadow-2xl transition-all duration-500 group-hover:border-accent/50 group-hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] bg-bg">
+                                <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiU6ut-KCHi5fpcORJtFF6KyD20VbEo5Rxs-20-HQHL-JZqFbXdcFPxBuCAx1eZTC0lXfwV3trwXYeWHOu0hBaGXKcwZCouOcA2F1jh9tp1ERha8bqDXw5LPiG3LYthXZxCVLNGnUSClaa8p3n98iXbbYnuCFihHUUhqmNIyBtTjTHhGgsWfbkbFRMEaO8/s320/Gemini_Generated_Image_1y6bwc1y6bwc1y6b.png" alt="AI Art 2">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6">
+                                    <div class="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                                        <span class="text-accent text-xs font-bold uppercase tracking-wider mb-2 block">Creative</span>
+                                        <h3 class="text-white text-xl font-bold">Concept Art</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Duplicate 8: AI Art 3 -->
+                        <div class="swiper-slide !w-72 !h-96 md:!w-80 md:!h-[32rem] group cursor-pointer">
+                            <div class="relative w-full h-full rounded-3xl overflow-hidden border border-white/10 shadow-2xl transition-all duration-500 group-hover:border-accent/50 group-hover:shadow-[0_0_40px_rgba(139,92,246,0.3)] bg-bg">
+                                <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1iQDnCwTsSv-seXgXUqJR943ihoLOQRs20Te7c50vvk7vg3i2Qxxs64AZ74PPDnus1skPsMTDURDzmJ1DmNGZxrVd7KyzW6Gc2oCygC7wEEI7J6LIXKhzYg1sMG3pHgE1YsKAm8EKZYlqG9o0EzOIG2d5jk1pAYQu-sal0f_ZP8sMI9J5zlGSqxBhSk4/s320/Gemini_Generated_Image_d8l2had8l2had8l2.png" alt="AI Art 3">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6">
+                                    <div class="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                                        <span class="text-accent text-xs font-bold uppercase tracking-wider mb-2 block">Portrait</span>
+                                        <h3 class="text-white text-xl font-bold">Artistic View</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                     
                     <div class="swiper-pagination !bottom-0"></div>
+                    <div class="swiper-button-prev !text-accent/50 hover:!text-accent after:!text-2xl transition-colors !hidden md:!flex"></div>
+                    <div class="swiper-button-next !text-accent/50 hover:!text-accent after:!text-2xl transition-colors !hidden md:!flex"></div>
                 </div>
-                
-                <!-- Custom Navigation Arrows -->
-                <div class="swiper-button-prev !text-accent/50 hover:!text-accent after:!text-2xl transition-colors !hidden md:!flex"></div>
-                <div class="swiper-button-next !text-accent/50 hover:!text-accent after:!text-2xl transition-colors !hidden md:!flex"></div>
             </div>
         </div>
     </section>
@@ -1394,133 +1530,356 @@
     <!-- Testimonials -->
     <section id="testimonials" class="py-12 w-full overflow-hidden">
         <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-16 text-text">Client <span class="text-gradient-accent">Love</span></h2>
+            <!-- Title & Overall Rating -->
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-text mb-3">Client <span class="text-gradient-accent">Love</span></h2>
+                
+                <!-- Overall Review (Updated to 4.5) -->
+                <div class="flex flex-col items-center justify-center gap-2 animate-float">
+                    <div class="flex text-yellow-400 text-lg gap-1">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="text-muted text-sm font-medium tracking-wide">Rated 4.5/5 by happy clients worldwide</p>
+                </div>
+            </div>
             
-            <!-- Removed !overflow-visible to strictly limit view to container width -->
-            <div class="swiper testimonial-slider max-w-6xl mx-auto pb-12 overflow-hidden pt-4">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+            <!-- Added !overflow-visible and pt-4 to fix hover clipping issue -->
+            <div class="swiper testimonial-slider max-w-6xl mx-auto pb-12 !overflow-visible pt-4">
+                <!-- flex items-stretch ensures equal height slides -->
+                <div class="swiper-wrapper items-stretch">
+                    
+                    <!-- Review 1 (5 Stars) -->
+                    <div class="swiper-slide !h-auto">
                         <div class="spotlight-card p-8 h-full flex flex-col">
-                            <div class="text-accent text-4xl mb-4 font-serif">"</div>
+                            <div class="flex justify-between items-start mb-4">
+                                <div class="text-accent text-4xl font-serif leading-none">"</div>
+                                <div class="flex text-yellow-400 text-xs gap-0.5">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
                             <p class="text-muted mb-6 italic flex-grow">Shamim's design sense is exceptional. He has given our company's branding a new dimension.</p>
-                            <div class="flex items-center gap-4 border-t border-border pt-4">
-                                <div class="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center font-bold text-text">A</div>
+                            <div class="flex items-center gap-4 border-t border-border pt-4 mt-auto">
+                                <img src="https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&q=80&w=100&h=100" alt="Abdullah Al Mamun" class="w-10 h-10 rounded-full object-cover border border-border">
                                 <div><h5 class="font-bold text-sm text-text">Abdullah Al Mamun</h5><p class="text-xs text-muted">CEO, Tech Solutions</p></div>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+
+                    <!-- Review 2 (4.5 Stars) -->
+                    <div class="swiper-slide !h-auto">
                         <div class="spotlight-card p-8 h-full flex flex-col">
-                            <div class="text-accent text-4xl mb-4 font-serif">"</div>
+                            <div class="flex justify-between items-start mb-4">
+                                <div class="text-accent text-4xl font-serif leading-none">"</div>
+                                <div class="flex text-yellow-400 text-xs gap-0.5">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
                             <p class="text-muted mb-6 italic flex-grow">I had an intro video made for my YouTube channel. Shamim did a great job in a very short time.</p>
-                            <div class="flex items-center gap-4 border-t border-border pt-4">
-                                <div class="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center font-bold text-text">S</div>
+                            <div class="flex items-center gap-4 border-t border-border pt-4 mt-auto">
+                                <img src="https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&q=80&w=100&h=100" alt="Sumaiya Akter" class="w-10 h-10 rounded-full object-cover border border-border">
                                 <div><h5 class="font-bold text-sm text-text">Sumaiya Akter</h5><p class="text-xs text-muted">Content Creator</p></div>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+
+                    <!-- Review 3 (4 Stars) -->
+                    <div class="swiper-slide !h-auto">
                         <div class="spotlight-card p-8 h-full flex flex-col">
-                            <div class="text-accent text-4xl mb-4 font-serif">"</div>
+                            <div class="flex justify-between items-start mb-4">
+                                <div class="text-accent text-4xl font-serif leading-none">"</div>
+                                <div class="flex text-yellow-400 text-xs gap-0.5">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                </div>
+                            </div>
                             <p class="text-muted mb-6 italic flex-grow">Shamim's audio editing skills are exceptional. He brought our project to life with creativity.</p>
-                            <div class="flex items-center gap-4 border-t border-border pt-4">
-                                <div class="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center font-bold text-text">AK</div>
+                            <div class="flex items-center gap-4 border-t border-border pt-4 mt-auto">
+                                <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=100&h=100" alt="Ahmed Khan" class="w-10 h-10 rounded-full object-cover border border-border">
                                 <div><h5 class="font-bold text-sm text-text">Ahmed Khan</h5><p class="text-xs text-muted">Music Producer</p></div>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+
+                    <!-- Review 4 (5 Stars) -->
+                    <div class="swiper-slide !h-auto">
                         <div class="spotlight-card p-8 h-full flex flex-col">
-                            <div class="text-accent text-4xl mb-4 font-serif">"</div>
+                            <div class="flex justify-between items-start mb-4">
+                                <div class="text-accent text-4xl font-serif leading-none">"</div>
+                                <div class="flex text-yellow-400 text-xs gap-0.5">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
                             <p class="text-muted mb-6 italic flex-grow">Expert troubleshooting for computer hardware issues. Very reliable and fast service.</p>
-                            <div class="flex items-center gap-4 border-t border-border pt-4">
-                                <div class="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center font-bold text-text">R</div>
+                            <div class="flex items-center gap-4 border-t border-border pt-4 mt-auto">
+                                <img src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?auto=format&fit=crop&q=80&w=100&h=100" alt="Rakib Hasan" class="w-10 h-10 rounded-full object-cover border border-border">
                                 <div><h5 class="font-bold text-sm text-text">Rakib Hasan</h5><p class="text-xs text-muted">IT Professional</p></div>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+
+                    <!-- Review 5 (4 Stars) -->
+                    <div class="swiper-slide !h-auto">
                         <div class="spotlight-card p-8 h-full flex flex-col">
-                            <div class="text-accent text-4xl mb-4 font-serif">"</div>
+                            <div class="flex justify-between items-start mb-4">
+                                <div class="text-accent text-4xl font-serif leading-none">"</div>
+                                <div class="flex text-yellow-400 text-xs gap-0.5">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                </div>
+                            </div>
                             <p class="text-muted mb-6 italic flex-grow">The branding and data analysis services provided by Shamim were top-notch.</p>
-                            <div class="flex items-center gap-4 border-t border-border pt-4">
-                                <div class="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center font-bold text-text">F</div>
+                            <div class="flex items-center gap-4 border-t border-border pt-4 mt-auto">
+                                <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=100&h=100" alt="Fatima Chowdhury" class="w-10 h-10 rounded-full object-cover border border-border">
                                 <div><h5 class="font-bold text-sm text-text">Fatima Chowdhury</h5><p class="text-xs text-muted">Marketing Manager</p></div>
                             </div>
                         </div>
                     </div>
+
+                    <!-- Review 6 (5 Stars) - New -->
+                    <div class="swiper-slide !h-auto">
+                        <div class="spotlight-card p-8 h-full flex flex-col">
+                            <div class="flex justify-between items-start mb-4">
+                                <div class="text-accent text-4xl font-serif leading-none">"</div>
+                                <div class="flex text-yellow-400 text-xs gap-0.5">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="text-muted mb-6 italic flex-grow">Shamim's dedication to the project was outstanding. Highly recommended for web development.</p>
+                            <div class="flex items-center gap-4 border-t border-border pt-4 mt-auto">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100&h=100" alt="Tanvir Ahmed" class="w-10 h-10 rounded-full object-cover border border-border">
+                                <div><h5 class="font-bold text-sm text-text">Tanvir Ahmed</h5><p class="text-xs text-muted">Entrepreneur</p></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review 7 (4.5 Stars) - New -->
+                    <div class="swiper-slide !h-auto">
+                        <div class="spotlight-card p-8 h-full flex flex-col">
+                            <div class="flex justify-between items-start mb-4">
+                                <div class="text-accent text-4xl font-serif leading-none">"</div>
+                                <div class="flex text-yellow-400 text-xs gap-0.5">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                            <p class="text-muted mb-6 italic flex-grow">Great communication and timely delivery. The designs were exactly what we needed.</p>
+                            <div class="flex items-center gap-4 border-t border-border pt-4 mt-auto">
+                                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=100&h=100" alt="Nusrat Jahan" class="w-10 h-10 rounded-full object-cover border border-border">
+                                <div><h5 class="font-bold text-sm text-text">Nusrat Jahan</h5><p class="text-xs text-muted">HR Manager</p></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review 8 (5 Stars) - New -->
+                    <div class="swiper-slide !h-auto">
+                        <div class="spotlight-card p-8 h-full flex flex-col">
+                            <div class="flex justify-between items-start mb-4">
+                                <div class="text-accent text-4xl font-serif leading-none">"</div>
+                                <div class="flex text-yellow-400 text-xs gap-0.5">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="text-muted mb-6 italic flex-grow">Solved our hardware issues very quickly. Very knowledgeable person.</p>
+                            <div class="flex items-center gap-4 border-t border-border pt-4 mt-auto">
+                                <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?auto=format&fit=crop&q=80&w=100&h=100" alt="Rafiqul Islam" class="w-10 h-10 rounded-full object-cover border border-border">
+                                <div><h5 class="font-bold text-sm text-text">Rafiqul Islam</h5><p class="text-xs text-muted">IT Specialist</p></div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="swiper-pagination !bottom-0"></div>
             </div>
         </div>
     </section>
 
-    <!-- Awards Section -->
-    <section id="awards" class="py-16 relative overflow-hidden w-full">
-        <div class="container mx-auto px-6">
+    <!-- Payment Section (Restored) -->
+    <section id="payment" class="py-16 relative overflow-hidden w-full">
+        <div class="container mx-auto px-6 relative z-10">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold text-text mb-4">My <span class="text-gradient-accent">Awards</span></h2>
-                <p class="text-muted">Recognitions of my work.</p>
+                <h2 class="text-4xl font-bold text-text mb-4">Payment <span class="text-gradient-accent">Methods</span></h2>
+                <p class="text-muted max-w-2xl mx-auto">Click on any method to view details, QR code, and payment instructions.</p>
             </div>
-            <!-- Changed grid-cols-2 to grid-cols-3 and increased max-width -->
-            <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-                 <!-- Card 1 -->
-                 <div class="spotlight-card p-8 flex items-center gap-6 group">
-                    <div class="text-accent text-5xl flex-shrink-0 group-hover:scale-110 transition-transform"><i class="fas fa-trophy"></i></div>
-                    <div>
-                        <h3 class="text-xl font-bold text-text mb-1">Best Designer Award</h3>
-                        <p class="text-muted text-sm">Awarded for outstanding creative design in 2023.</p>
+
+            <!-- Standard Payment Gateway Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+                
+                <!-- bKash -->
+                <div class="group relative overflow-hidden rounded-2xl p-6 transition-all duration-300 hover:-translate-y-2 cursor-pointer bg-card border border-border hover:border-[#e2136e]" onclick="openPaymentModal('bkash')">
+                    <!-- Brand Background on Hover -->
+                    <div class="absolute inset-0 bg-gradient-to-br from-[#e2136e] to-[#b00e53] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    
+                    <div class="relative z-10 flex flex-col items-center">
+                        <div class="w-20 h-20 bg-white rounded-full p-2 mb-4 shadow-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300 overflow-hidden">
+                            <img src="https://static.vecteezy.com/system/resources/previews/039/340/798/non_2x/bkash-logo-free-vector.jpg" alt="bKash" class="w-full h-full object-cover rounded-full">
+                        </div>
+                        <h3 class="text-xl font-bold text-text group-hover:text-white mb-1 transition-colors">bKash</h3>
+                        <p class="text-xs text-muted group-hover:text-white/80 mb-2 uppercase tracking-wider">Personal</p>
+                        <span class="text-xs text-accent group-hover:text-white underline">View Details</span>
                     </div>
-                 </div>
-                 <!-- Card 2 -->
-                 <div class="spotlight-card p-8 flex items-center gap-6 group">
-                    <div class="text-accent text-5xl flex-shrink-0 group-hover:scale-110 transition-transform"><i class="fas fa-medal"></i></div>
-                    <div>
-                        <h3 class="text-xl font-bold text-text mb-1">Top Performer</h3>
-                        <p class="text-muted text-sm">Recognized as the top performer of the year 2022.</p>
+                </div>
+
+                <!-- Nagad -->
+                <div class="group relative overflow-hidden rounded-2xl p-6 transition-all duration-300 hover:-translate-y-2 cursor-pointer bg-card border border-border hover:border-[#ec1d24]" onclick="openPaymentModal('nagad')">
+                    <!-- Brand Background on Hover -->
+                    <div class="absolute inset-0 bg-gradient-to-br from-[#ec1d24] to-[#c4161c] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+                    <div class="relative z-10 flex flex-col items-center">
+                        <div class="w-20 h-20 bg-white rounded-full p-2 mb-4 shadow-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300 overflow-hidden">
+                            <img src="https://play-lh.googleusercontent.com/9ps_d6nGKQzfbsJfMaFR0RkdwzEdbZV53ReYCS09Eo5MV-GtVylFD-7IHcVktlnz9Mo" alt="Nagad" class="w-full h-full object-cover rounded-full">
+                        </div>
+                        <h3 class="text-xl font-bold text-text group-hover:text-white mb-1 transition-colors">Nagad</h3>
+                        <p class="text-xs text-muted group-hover:text-white/80 mb-2 uppercase tracking-wider">Personal</p>
+                        <span class="text-xs text-accent group-hover:text-white underline">View Details</span>
                     </div>
-                 </div>
-                 <!-- Card 3 -->
-                 <div class="spotlight-card p-8 flex items-center gap-6 group">
-                    <div class="text-accent text-5xl flex-shrink-0 group-hover:scale-110 transition-transform"><i class="fas fa-award"></i></div>
-                    <div>
-                        <h3 class="text-xl font-bold text-text mb-1">Creative Excellence</h3>
-                        <p class="text-muted text-sm">Honored for creative excellence in video editing in 2021.</p>
+                </div>
+
+                <!-- Rocket -->
+                <div class="group relative overflow-hidden rounded-2xl p-6 transition-all duration-300 hover:-translate-y-2 cursor-pointer bg-card border border-border hover:border-[#8c3494]" onclick="openPaymentModal('rocket')">
+                    <!-- Brand Background on Hover -->
+                    <div class="absolute inset-0 bg-gradient-to-br from-[#8c3494] to-[#6a2570] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+                    <div class="relative z-10 flex flex-col items-center">
+                        <div class="w-20 h-20 bg-white rounded-full p-2 mb-4 shadow-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300 overflow-hidden">
+                            <img src="https://images.seeklogo.com/logo-png/31/1/dutch-bangla-rocket-logo-png_seeklogo-317692.png" alt="Rocket" class="w-full h-full object-contain">
+                        </div>
+                        <h3 class="text-xl font-bold text-text group-hover:text-white mb-1 transition-colors">Rocket</h3>
+                        <p class="text-xs text-muted group-hover:text-white/80 mb-2 uppercase tracking-wider">Personal</p>
+                        <span class="text-xs text-accent group-hover:text-white underline">View Details</span>
                     </div>
-                 </div>
+                </div>
+
+                <!-- NexusPay -->
+                <div class="group relative overflow-hidden rounded-2xl p-6 transition-all duration-300 hover:-translate-y-2 cursor-pointer bg-card border border-border hover:border-[#2d72bc]" onclick="openPaymentModal('nexus')">
+                    <!-- Brand Background on Hover -->
+                    <div class="absolute inset-0 bg-gradient-to-br from-[#2d72bc] to-[#1a4f8a] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+                    <div class="relative z-10 flex flex-col items-center">
+                        <div class="w-20 h-20 bg-white rounded-full p-2 mb-4 shadow-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300 overflow-hidden">
+                            <img src="https://play-lh.googleusercontent.com/xodZSlJ7hqm7i8Txsgyy8fQtTtSNtb9kywyVB2S8CqSUGUvRyB9brq0ExXsSbEWKFkw" alt="NexusPay" class="w-full h-full object-cover rounded-full">
+                        </div>
+                        <h3 class="text-xl font-bold text-text group-hover:text-white mb-1 transition-colors">NexusPay</h3>
+                        <p class="text-xs text-muted group-hover:text-white/80 mb-2 uppercase tracking-wider">DBBL Card</p>
+                        <span class="text-xs text-accent group-hover:text-white underline">View Details</span>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Certificates Section -->
-    <section id="certificates" class="py-16 bg-card border-y border-border w-full overflow-hidden">
-        <div class="container mx-auto px-6">
-            <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold text-text mb-4">My <span class="text-gradient-accent">Certificates</span></h2>
-                <p class="text-muted">Professional certifications and achievements.</p>
+    <!-- Payment Details Modal (Popup) -->
+    <div id="payment-modal" class="fixed inset-0 z-[10002] hidden flex items-center justify-center p-4">
+        <!-- Backdrop -->
+        <div class="absolute inset-0 bg-black/80 backdrop-blur-sm" onclick="closePaymentModal()"></div>
+        
+        <!-- Modal Content -->
+        <div class="relative bg-bg border border-border rounded-2xl w-full max-w-md p-0 shadow-2xl transform transition-all duration-300 scale-95 opacity-0 overflow-hidden flex flex-col max-h-[90vh]" id="payment-modal-content">
+            <!-- Header with Color -->
+            <div id="modal-header" class="shrink-0 h-24 bg-gradient-to-r from-gray-800 to-gray-900 relative flex justify-center items-end z-20">
+                <div class="absolute top-4 right-4">
+                    <button onclick="closePaymentModal()" class="text-white/70 hover:text-white bg-black/20 hover:bg-black/40 rounded-full w-8 h-8 flex items-center justify-center transition-colors">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <!-- Logo Container -->
+                <div class="w-20 h-20 bg-white rounded-full p-1 shadow-xl translate-y-1/2 overflow-hidden border-4 border-bg">
+                    <img id="modal-logo" src="" alt="Payment Logo" class="w-full h-full object-cover rounded-full">
+                </div>
             </div>
-            <div class="grid md:grid-cols-3 gap-6">
-                <!-- Cert 1 -->
-                <div class="spotlight-card p-8 text-center group">
-                    <div class="text-accent text-5xl mb-4 group-hover:scale-110 transition-transform"><i class="fas fa-certificate"></i></div>
-                    <h3 class="text-xl font-bold text-text mb-2">Adobe Certified Expert</h3>
-                    <p class="text-muted text-sm">Certified in Adobe Illustrator and Photoshop.</p>
+
+            <!-- Body Container -->
+            <div class="overflow-y-auto mt-14 pt-2 pb-8 px-8 text-center relative z-10 flex-grow">
+                
+                <!-- Header Info Wrapper (Title + Type) -->
+                <div id="modal-info-header" class="transition-opacity duration-300">
+                    <h3 id="modal-title" class="text-2xl font-bold text-text mb-1">Method Name</h3>
+                    <p id="modal-type" class="text-sm text-muted uppercase tracking-wider mb-6">Personal Account</p>
                 </div>
-                <!-- Cert 2 -->
-                 <div class="spotlight-card p-8 text-center group">
-                    <div class="text-accent text-5xl mb-4 group-hover:scale-110 transition-transform"><i class="fas fa-certificate"></i></div>
-                    <h3 class="text-xl font-bold text-text mb-2">Google IT Support</h3>
-                    <p class="text-muted text-sm">Professional Certificate from Coursera.</p>
+
+                <!-- VIEW 1: DETAILS (Instructions, Number, QR) -->
+                <div id="modal-view-details" class="transition-opacity duration-300">
+                    <!-- Instructions -->
+                    <div class="text-left bg-card p-4 rounded-xl border border-border mb-6">
+                        <h4 class="text-sm font-bold text-text mb-2 flex items-center gap-2">
+                            <i class="fas fa-info-circle text-accent"></i> Instructions:
+                        </h4>
+                        <p id="modal-desc" class="text-sm text-muted leading-relaxed">
+                            Go to your app, select Send Money, and enter the number below.
+                        </p>
+                    </div>
+
+                    <!-- Standard Number Copy Section (For bKash, Nagad, Rocket, Nexus) -->
+                    <div id="standard-number-section" class="mb-6">
+                        <label class="text-xs text-muted block mb-2 font-medium">Payment Number / Account</label>
+                        <button id="modal-copy-btn" onclick="copyModalNumber()" class="w-full py-3 px-4 rounded-xl bg-accent/10 border border-accent/20 hover:bg-accent hover:text-white text-accent font-mono text-lg font-bold flex items-center justify-center gap-3 transition-all group">
+                            <span id="modal-number">01313831234</span>
+                            <i class="far fa-copy opacity-70 group-hover:opacity-100"></i>
+                        </button>
+                    </div>
+
+                    <!-- QR Code Section -->
+                    <div class="flex flex-col items-center">
+                        <p id="qr-label" class="text-xs text-muted mb-3 font-medium">Scan QR Code</p>
+                        
+                        <!-- Pay via QR Code Button (Added) -->
+                        <button id="qr-reveal-btn" onclick="revealQrCode()" class="hidden mb-4 px-5 py-2.5 rounded-full bg-gray-800 border border-gray-700 hover:bg-gray-700 text-white text-sm font-medium transition-all shadow-md flex items-center gap-2">
+                            <i class="fas fa-qrcode"></i> Pay via QR Code
+                        </button>
+
+                        <!-- QR Container -->
+                        <div id="qr-container" class="p-2 bg-white rounded-xl shadow-inner mb-4 transition-all duration-300">
+                            <img id="modal-qr" src="" alt="QR Code" class="w-32 h-32 object-contain">
+                        </div>
+                        
+                        <!-- NEXT Button (For bKash, Nagad, Rocket, Nexus) -->
+                        <button id="mobile-next-btn" onclick="showPaymentForm()" class="hidden w-full py-3 rounded-xl bg-[#e2136e] text-white font-bold hover:brightness-90 transition-colors mt-2 shadow-lg">
+                            Next <i class="fas fa-arrow-right ml-2"></i>
+                        </button>
+                    </div>
                 </div>
-                <!-- Cert 3 -->
-                 <div class="spotlight-card p-8 text-center group">
-                    <div class="text-accent text-5xl mb-4 group-hover:scale-110 transition-transform"><i class="fas fa-certificate"></i></div>
-                    <h3 class="text-xl font-bold text-text mb-2">Data Analytics</h3>
-                    <p class="text-muted text-sm">Certified in Data Analytics from a reputed institution.</p>
+
+                <!-- VIEW 2: FORM (For All Methods) -->
+                <div id="modal-view-form" class="hidden transition-opacity duration-300 w-full">
+                     <h4 class="text-lg font-bold text-text mb-4">Confirm Payment</h4>
+                     <form onsubmit="submitMobilePayment(event)" class="space-y-4 text-left">
+                        
+                        <!-- Added: Number Type Dropdown (Hidden by default) -->
+                        <div id="number-type-div" class="hidden">
+                            <label class="text-sm font-medium text-muted block mb-1">Number Type</label>
+                            <!-- Fix: Added style to options to ensure visibility against background -->
+                            <select id="pay-number-type" class="w-full bg-card border border-border rounded-lg p-3 text-text focus:border-accent focus:outline-none">
+                                <option value="Card Number" style="background-color: var(--color-bg); color: var(--color-text);">Card Number</option>
+                                <option value="Account Number" style="background-color: var(--color-bg); color: var(--color-text);">Account Number</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <!-- Updated ID for Label to change text dynamically -->
+                            <label id="sender-number-label" class="text-sm font-medium text-muted block mb-1">Your Sender Number</label>
+                            <input type="tel" id="pay-sender" class="w-full bg-card border border-border rounded-lg p-3 text-text focus:border-accent focus:outline-none" placeholder="Enter number" required>
+                        </div>
+                        <div>
+                            <label class="text-sm font-medium text-muted block mb-1">Amount</label>
+                            <input type="number" id="pay-amount" class="w-full bg-card border border-border rounded-lg p-3 text-text focus:border-accent focus:outline-none" placeholder="500" required>
+                        </div>
+                        <!-- Added Purpose Field -->
+                        <div>
+                            <label class="text-sm font-medium text-muted block mb-1">Purpose</label>
+                            <input type="text" id="pay-purpose" class="w-full bg-card border border-border rounded-lg p-3 text-text focus:border-accent focus:outline-none" placeholder="e.g. Design Service" required>
+                        </div>
+                        <div>
+                            <label class="text-sm font-medium text-muted block mb-1">Transaction ID</label>
+                            <input type="text" id="pay-trx" class="w-full bg-card border border-border rounded-lg p-3 text-text focus:border-accent focus:outline-none uppercase" placeholder="AHJ7..." required>
+                        </div>
+                        
+                        <div class="pt-4 flex gap-3">
+                            <button type="button" onclick="hidePaymentForm()" class="flex-1 py-3 rounded-xl border border-border text-muted hover:bg-card hover:text-text transition-colors font-medium">Back</button>
+                            <button type="submit" id="form-confirm-btn" class="flex-1 py-3 rounded-xl bg-accent text-white font-bold hover:brightness-90 transition-colors shadow-lg">Confirm</button>
+                        </div>
+                     </form>
                 </div>
+
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Contact Section -->
     <section id="contact" class="py-12 relative overflow-hidden w-full">
@@ -1753,7 +2112,6 @@
                 });
 
                 transition.ready.then(() => {
-                    // Animate the new view (clip-path circle expanding)
                     const animation = document.documentElement.animate(
                         {
                             clipPath: [
@@ -1762,8 +2120,8 @@
                             ],
                         },
                         {
-                            duration: 1500, // Increased duration for slower animation
-                            easing: 'cubic-bezier(0.4, 0, 0.2, 1)', // Premium easing function
+                            duration: 1500,
+                            easing: 'cubic-bezier(0.4, 0, 0.2, 1)',
                             pseudoElement: '::view-transition-new(root)',
                         }
                     );
@@ -1856,21 +2214,21 @@
             }, observerOptions);
             document.querySelectorAll('.progress-ring').forEach(ring => ringObserver.observe(ring));
 
-            // --- Updated Copy Bio Logic ---
+            // --- Updated Copy Bio Logic with Fallback ---
             const copyBioBtn = document.getElementById('copy-bio-btn');
             if (copyBioBtn) {
                 copyBioBtn.addEventListener('click', () => {
                     const bioText = document.getElementById('bio-paragraph').innerText;
-                    navigator.clipboard.writeText(bioText);
-                    
-                    const icon = copyBioBtn.querySelector('i');
-                    icon.classList.remove('far', 'fa-copy');
-                    icon.classList.add('fas', 'fa-check');
-                    
-                    setTimeout(() => {
-                        icon.classList.remove('fas', 'fa-check');
-                        icon.classList.add('far', 'fa-copy');
-                    }, 2000);
+                    copyTextToClipboard(bioText, () => {
+                        const icon = copyBioBtn.querySelector('i');
+                        icon.classList.remove('far', 'fa-copy');
+                        icon.classList.add('fas', 'fa-check');
+                        
+                        setTimeout(() => {
+                            icon.classList.remove('fas', 'fa-check');
+                            icon.classList.add('far', 'fa-copy');
+                        }, 2000);
+                    });
                 });
             }
 
@@ -1879,7 +2237,121 @@
             initMisc();
             initStars();
             initPortfolio();
+            initDurationTicker(); // Changed from calculateDurations to initDurationTicker
         });
+
+        // --- Clipboard Helper Function (API + Fallback) ---
+        function copyTextToClipboard(text, successCallback) {
+            // Try newer API first (might fail in iframe without permission)
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(text).then(successCallback).catch(err => {
+                    console.warn('Clipboard API failed, trying fallback', err);
+                    fallbackCopyTextToClipboard(text, successCallback);
+                });
+            } else {
+                fallbackCopyTextToClipboard(text, successCallback);
+            }
+        }
+
+        function fallbackCopyTextToClipboard(text, successCallback) {
+            var textArea = document.createElement("textarea");
+            textArea.value = text;
+            
+            // Ensure it's not visible but part of DOM
+            textArea.style.position = "fixed";
+            textArea.style.left = "-9999px";
+            textArea.style.top = "0";
+            
+            document.body.appendChild(textArea);
+            textArea.focus();
+            textArea.select();
+
+            try {
+                var successful = document.execCommand('copy');
+                if (successful) {
+                    if (successCallback) successCallback();
+                } else {
+                    console.error('Fallback: Copying text command was unsuccessful');
+                }
+            } catch (err) {
+                console.error('Fallback: Oops, unable to copy', err);
+            }
+
+            document.body.removeChild(textArea);
+        }
+
+        // --- Work Duration Ticker (Year, Month, Day, Hour, Minute, Second) ---
+        function initDurationTicker() {
+            const counters = document.querySelectorAll('.duration-counter');
+            
+            const updateTickers = () => {
+                const now = new Date();
+                
+                counters.forEach(counter => {
+                    const startStr = counter.getAttribute('data-start');
+                    const endStr = counter.getAttribute('data-end');
+                    
+                    if(!startStr) return;
+
+                    const startDate = new Date(startStr);
+                    // If explicitly 'present', use current time. Otherwise use the fixed end date.
+                    const isPresent = endStr === 'present';
+                    let endDate = isPresent ? now : new Date(endStr);
+                    
+                    // Logic to calculate exact duration
+                    let tempDate = new Date(startDate);
+                    let years = 0, months = 0, days = 0;
+                    
+                    // Years
+                    while(true) {
+                        tempDate.setFullYear(tempDate.getFullYear() + 1);
+                        if(tempDate > endDate) {
+                            tempDate.setFullYear(tempDate.getFullYear() - 1);
+                            break;
+                        }
+                        years++;
+                    }
+                    
+                    // Months
+                    while(true) {
+                        tempDate.setMonth(tempDate.getMonth() + 1);
+                        if(tempDate > endDate) {
+                            tempDate.setMonth(tempDate.getMonth() - 1);
+                            break;
+                        }
+                        months++;
+                    }
+                    
+                    // Days
+                    while(true) {
+                        tempDate.setDate(tempDate.getDate() + 1);
+                        if(tempDate > endDate) {
+                            tempDate.setDate(tempDate.getDate() - 1);
+                            break;
+                        }
+                        days++;
+                    }
+                    
+                    // Calculate remaining time for Hours, Minutes, Seconds
+                    let diffMs = endDate - tempDate;
+                    
+                    let seconds = Math.floor(diffMs / 1000);
+                    let minutes = Math.floor(seconds / 60);
+                    seconds %= 60;
+                    let hours = Math.floor(minutes / 60);
+                    minutes %= 60;
+                    
+                    // Helper to add leading zero
+                    const pad = (n) => n.toString().padStart(2, '0');
+                    
+                    // Display Format: 2y 5m 12d 04h 30m 12s
+                    counter.innerText = `${years}y ${months}m ${days}d ${pad(hours)}h ${pad(minutes)}m ${pad(seconds)}s`;
+                });
+            };
+
+            updateTickers(); // Run immediately
+            setInterval(updateTickers, 1000); // Update every second
+        }
 
         // --- Stars Canvas ---
         function initStars() {
@@ -1963,18 +2435,18 @@
                 centeredSlides: true,
                 slidesPerView: 'auto',
                 coverflowEffect: { 
-                    rotate: 0, 
+                    rotate: 30, 
                     stretch: 0, 
-                    depth: 200, 
+                    depth: 100, 
                     modifier: 1, 
                     slideShadows: true 
                 },
                 loop: true,
-                loopedSlides: 6,
+                loopedSlides: 6, // Ensure smooth loop with duplicates
                 loopAdditionalSlides: 3,
                 autoplay: { delay: 3000, disableOnInteraction: false },
                 pagination: { el: '.swiper-pagination', clickable: true },
-                navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+                navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' }, // Enable Nav Arrows
             });
 
             // Logo Slider (Smoother Linear Marquee with Fix)
@@ -2033,39 +2505,304 @@
 
         function initMisc() {
             document.getElementById('year-span').innerText = new Date().getFullYear();
-            
-            // Lightbox
-            const lb = document.getElementById('lightbox');
-            const closeLb = document.getElementById('close-lightbox');
-            const lbImg = document.getElementById('lightbox-img');
-            
-            if(lb && lbImg && closeLb) {
-                const images = document.querySelectorAll('.photo-slider img, .logo-slider img');
-                
-                images.forEach(img => {
-                    img.parentElement.addEventListener('click', (e) => {
-                        e.stopPropagation();
-                        lbImg.src = img.src;
-                        lb.classList.add('visible');
-                        lb.classList.remove('opacity-0', 'invisible');
-                    });
-                });
-                
-                const hideLightbox = () => {
-                    lb.classList.add('opacity-0', 'invisible');
-                    lb.classList.remove('visible');
-                };
+        }
 
-                closeLb.addEventListener('click', hideLightbox);
-                lb.addEventListener('click', (e) => { if(e.target === lb) hideLightbox(); });
+        // Global variable to track current active method
+        let activePaymentMethod = null;
+
+        // --- Payment Modal Logic ---
+        const paymentData = {
+            bkash: {
+                title: 'bKash',
+                type: 'Personal Account',
+                number: '01313831234',
+                color: 'from-[#e2136e] to-[#b00e53]',
+                btnColor: 'bg-[#e2136e]', // Button color for bKash
+                logo: 'https://static.vecteezy.com/system/resources/previews/039/340/798/non_2x/bkash-logo-free-vector.jpg',
+                // Updated Description with Dial Number
+                desc: `
+                    <span class="block mb-3">
+                        <strong class="text-text">English:</strong> Click the <b>"Pay via QR Code"</b> button below. Open bKash App, tap on <b>"Scan QR"</b> or select <b>"Send Money"</b> to the number below. Alternatively, dial <b>*247#</b>.
+                    </span>
+                    <span class="block pt-2 border-t border-border/50">
+                        <strong class="text-text">বাংলা:</strong> নিচের <b>"Pay via QR Code"</b> বাটনে ক্লিক করুন। বিকাশ অ্যাপ থেকে <b>"Scan QR"</b> বা <b>"Send Money"</b> করুন। অথবা <b>*২৪৭#</b> ডায়াল করে পেমেন্ট সম্পন্ন করুন।
+                    </span>
+                `,
+                customQr: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7lAfvERNwhSH5O21kn78SaEROpofWgITKx17qv6u8yrUZqy8f-v7qz4TmNJL9RBoVsM2Mr-HSpkpqc23YY-OVt0gP3b9K1vG0KG6kZhnYw3BOu2ExDxao2ztWCCGq8GZDIr7OOQ41CCPql9nhO6872zwcHTguCIhAGxGjiqEd3nFFrq8Vb0qmd4-H_tk/s320/Image%202026-02-15%20at%207.30.02%20PM.jpeg'
+            },
+            nagad: {
+                title: 'Nagad',
+                type: 'Personal Account',
+                number: '01313831234',
+                color: 'from-[#ec1d24] to-[#c4161c]',
+                btnColor: 'bg-[#ec1d24]', // Button color for Nagad
+                logo: 'https://play-lh.googleusercontent.com/9ps_d6nGKQzfbsJfMaFR0RkdwzEdbZV53ReYCS09Eo5MV-GtVylFD-7IHcVktlnz9Mo',
+                // Updated Description with Dial Number
+                desc: `
+                    <span class="block mb-3">
+                        <strong class="text-text">English:</strong> Open Nagad App, select <b>"Send Money"</b>, enter the number below, and confirm with PIN. Alternatively, dial <b>*167#</b>.
+                    </span>
+                    <span class="block pt-2 border-t border-border/50">
+                        <strong class="text-text">বাংলা:</strong> নগদ অ্যাপ থেকে <b>"Send Money"</b> অপশনটি ব্যবহার করুন অথবা <b>*১৬৭#</b> ডায়াল করে নিচের নাম্বারে টাকা পাঠান।
+                    </span>
+                `,
+            },
+            rocket: {
+                title: 'Rocket',
+                type: 'Personal Account',
+                number: '01313831234',
+                color: 'from-[#8c3494] to-[#6a2570]',
+                btnColor: 'bg-[#8c3494]', // Button color for Rocket
+                logo: 'https://images.seeklogo.com/logo-png/31/1/dutch-bangla-rocket-logo-png_seeklogo-317692.png',
+                // Updated Description with Dial Number
+                desc: `
+                    <span class="block mb-3">
+                        <strong class="text-text">English:</strong> Click <b>"Pay via QR Code"</b> below. Open Rocket App, tap <b>"Scan QR"</b> or select <b>"Send Money"</b> to the number below. Alternatively, dial <b>*322#</b>.
+                    </span>
+                    <span class="block pt-2 border-t border-border/50">
+                        <strong class="text-text">বাংলা:</strong> নিচের <b>"Pay via QR Code"</b> বাটনে ক্লিক করুন। রকেট অ্যাপ থেকে <b>"Scan QR"</b> বা <b>"Send Money"</b> করুন। অথবা <b>*৩২২#</b> ডায়াল করুন।
+                    </span>
+                `,
+                customQr: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRvWp7Wl0TjPTPoswRDZWW7H7SJyKa5bLGTmV6T5TVTGAr6puPs-Xzq3mKYvh0RiF_9CYJgkWEJ1AukyBGzgjVZIWnHzqbmSTsLxUeW9GRbOaOs3VyXFEktpPHs097lxb_c82_qJroePXvhJzItTc3NTjwt4OhGXcmzVjpEpTzXtB68eYNbMBE1ae2A_Q/s320/Screenshot_2026-02-16-12-21-51-16_853034652d6f6abb6b84ec8a047167e5.jpg.jpeg'
+            },
+            nexus: {
+                title: 'NexusPay',
+                type: 'DBBL Account',
+                number: '1511580030767', // Updated Account Number
+                color: 'from-[#2d72bc] to-[#1a4f8a]',
+                btnColor: 'bg-[#2d72bc]', // Button color for Nexus
+                logo: 'https://play-lh.googleusercontent.com/xodZSlJ7hqm7i8Txsgyy8fQtTtSNtb9kywyVB2S8CqSUGUvRyB9brq0ExXsSbEWKFkw',
+                // Updated Description
+                desc: `
+                    <span class="block mb-3">
+                        <strong class="text-text">English:</strong> Click <b>"Pay via QR Code"</b> below. Open NexusPay App, scan the QR or use <b>"Send Money"</b> to the account number below.
+                    </span>
+                    <span class="block pt-2 border-t border-border/50">
+                        <strong class="text-text">বাংলা:</strong> নিচের <b>"Pay via QR Code"</b> বাটনে ক্লিক করুন। নেক্সাসপে অ্যাপ ওপেন করে কিউআর স্ক্যান করুন অথবা নিচের অ্যাকাউন্ট নাম্বারে টাকা পাঠান।
+                    </span>
+                `,
+                customQr: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOSkR9tv3AW6ndUYg0F2jOp2M9LRBbNBeLVe-zz71IPtAcexQasCNOWkOvb2Lh3dsAty-mOjFhL5w6vCOX6nioHvI0v22WVptHn9vMyEI6XzU45M6GJkKZBiN_zsjaIie7Gkz3XGzTxKtRIkZKnMeFzG_vekU1ZH_MOQSR8HbPJXfS08Gthyphenhyphen5DvP6WrRk/s320/NexuxPay.jpeg'
+            }
+        };
+
+        function openPaymentModal(method) {
+            const data = paymentData[method];
+            if (!data) return;
+            
+            activePaymentMethod = method; // Set active method
+
+            const modal = document.getElementById('payment-modal');
+            const content = document.getElementById('payment-modal-content');
+            const header = document.getElementById('modal-header');
+            
+            // Set Data
+            document.getElementById('modal-title').innerText = data.title;
+            document.getElementById('modal-type').innerText = data.type;
+            document.getElementById('modal-desc').innerHTML = data.desc;
+            document.getElementById('modal-logo').src = data.logo;
+            
+            // Set Number
+            document.getElementById('modal-number').innerText = data.number;
+            
+            const qrContainer = document.getElementById('qr-container');
+            const qrRevealBtn = document.getElementById('qr-reveal-btn');
+            const qrLabel = document.getElementById('qr-label');
+            const modalQr = document.getElementById('modal-qr');
+
+            // --- Logic specific to bKash vs Nagad vs Others ---
+            const viewDetails = document.getElementById('modal-view-details');
+            const viewForm = document.getElementById('modal-view-form');
+            const nextBtn = document.getElementById('mobile-next-btn');
+            const infoHeader = document.getElementById('modal-info-header');
+            const formConfirmBtn = document.getElementById('form-confirm-btn');
+            
+            // Reset View States (Show Details, Hide Form)
+            viewDetails.classList.remove('hidden', 'opacity-0');
+            viewForm.classList.add('hidden');
+            viewForm.classList.remove('opacity-100');
+            infoHeader.classList.remove('hidden');
+
+            // Default State (for Custom QR methods like bKash, Rocket, Nexus)
+            if (data.customQr) {
+                modalQr.src = data.customQr;
+                qrContainer.classList.add('hidden'); // Hidden initially
+                qrRevealBtn.classList.remove('hidden');
+                qrLabel.classList.add('hidden');
+                
+                nextBtn.classList.remove('hidden');
+                nextBtn.className = `w-full py-3 rounded-xl ${data.btnColor} text-white font-bold hover:brightness-90 transition-colors mt-2 shadow-lg`;
+                formConfirmBtn.className = `flex-1 py-3 rounded-xl ${data.btnColor} text-white font-bold hover:brightness-90 transition-colors shadow-lg`;
+                
+                updateFormStyling(data.btnColor);
+            } 
+            else if (method === 'nagad') {
+                // Nagad: No QR (Hidden), Next Button
+                qrContainer.classList.add('hidden'); 
+                qrRevealBtn.classList.add('hidden');
+                qrLabel.classList.add('hidden');
+                
+                nextBtn.classList.remove('hidden');
+                nextBtn.className = `w-full py-3 rounded-xl ${data.btnColor} text-white font-bold hover:brightness-90 transition-colors mt-2 shadow-lg`;
+                formConfirmBtn.className = `flex-1 py-3 rounded-xl ${data.btnColor} text-white font-bold hover:brightness-90 transition-colors shadow-lg`;
+                
+                updateFormStyling(data.btnColor);
+            } else {
+                // Others (Fallback if needed): Generated QR
+                modalQr.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${data.number}`;
+                qrContainer.classList.remove('hidden');
+                qrRevealBtn.classList.add('hidden');
+                qrLabel.classList.remove('hidden');
+                nextBtn.classList.add('hidden');
+            }
+
+            // Set Header Color
+            header.className = `h-24 relative flex justify-center items-end bg-gradient-to-r ${data.color}`;
+
+            // Reset Copy Button
+            const copyBtn = document.getElementById('modal-copy-btn');
+            copyBtn.innerHTML = `<span id="modal-number">${data.number}</span> <i class="far fa-copy opacity-70 group-hover:opacity-100"></i>`;
+            copyBtn.classList.remove('bg-green-500', 'text-white', 'border-transparent');
+            copyBtn.classList.add('bg-accent/10', 'text-accent', 'border-accent/20');
+
+            // Show Modal
+            modal.classList.remove('hidden');
+            // Lock Body Scroll
+            document.body.style.overflow = 'hidden';
+            
+            setTimeout(() => {
+                content.classList.remove('scale-95', 'opacity-0');
+                content.classList.add('scale-100', 'opacity-100');
+            }, 10);
+        }
+
+        // Helper to update focus colors on inputs
+        function updateFormStyling(colorClass) {
+            // ...
+        }
+
+        // Helper for specific copy buttons (Nexus) - REMOVED as redundant now
+        // Standard copy function handles everything now
+
+        // Function to reveal QR code when button is clicked
+        function revealQrCode() {
+            const qrContainer = document.getElementById('qr-container');
+            const qrRevealBtn = document.getElementById('qr-reveal-btn');
+            
+            // Hide button, Show QR
+            qrRevealBtn.classList.add('hidden');
+            qrContainer.classList.remove('hidden');
+        }
+
+        function closePaymentModal() {
+            const modal = document.getElementById('payment-modal');
+            const content = document.getElementById('payment-modal-content');
+            
+            content.classList.remove('scale-100', 'opacity-100');
+            content.classList.add('scale-95', 'opacity-0');
+            
+            setTimeout(() => {
+                modal.classList.add('hidden');
+                // Unlock Body Scroll
+                document.body.style.overflow = '';
+            }, 300);
+        }
+
+        function copyModalNumber() {
+            const numberText = document.getElementById('modal-number').innerText;
+            const btn = document.getElementById('modal-copy-btn');
+            
+            copyTextToClipboard(numberText, () => {
+                btn.innerHTML = `<span>Copied!</span> <i class="fas fa-check"></i>`;
+                btn.classList.remove('bg-accent/10', 'text-accent', 'border-accent/20');
+                btn.classList.add('bg-green-500', 'text-white', 'border-transparent');
+                
+                setTimeout(() => {
+                    btn.innerHTML = `<span id="modal-number">${numberText}</span> <i class="far fa-copy opacity-70 group-hover:opacity-100"></i>`;
+                    btn.classList.remove('bg-green-500', 'text-white', 'border-transparent');
+                    btn.classList.add('bg-accent/10', 'text-accent', 'border-accent/20');
+                }, 2000);
+            });
+        }
+
+        // --- Specific Form Logic (bKash & Nagad) ---
+        function showPaymentForm() {
+            const viewDetails = document.getElementById('modal-view-details');
+            const viewForm = document.getElementById('modal-view-form');
+            const infoHeader = document.getElementById('modal-info-header');
+            const senderLabel = document.getElementById('sender-number-label');
+            const numberTypeDiv = document.getElementById('number-type-div');
+            
+            // Update Label based on active method
+            if (activePaymentMethod) {
+                const title = paymentData[activePaymentMethod].title;
+                
+                if (activePaymentMethod === 'nexus') {
+                    // NexusPay Specifics
+                    senderLabel.innerText = "DBBL Card or Account Number";
+                    numberTypeDiv.classList.remove('hidden');
+                } else {
+                    // Others
+                    senderLabel.innerText = `Your ${title} Number`;
+                    numberTypeDiv.classList.add('hidden');
+                }
+            }
+
+            // Fade out details & header
+            viewDetails.classList.add('opacity-0');
+            
+            setTimeout(() => {
+                viewDetails.classList.add('hidden');
+                infoHeader.classList.add('hidden'); // Hide Title/Type to save space
+                
+                // Fade in Form
+                viewForm.classList.remove('hidden');
+                setTimeout(() => {
+                    viewForm.classList.add('opacity-100');
+                }, 10);
+            }, 300);
+        }
+
+        function hidePaymentForm() {
+            const viewDetails = document.getElementById('modal-view-details');
+            const viewForm = document.getElementById('modal-view-form');
+            const infoHeader = document.getElementById('modal-info-header');
+            
+            viewForm.classList.remove('opacity-100');
+            setTimeout(() => {
+                viewForm.classList.add('hidden');
+                
+                viewDetails.classList.remove('hidden');
+                infoHeader.classList.remove('hidden');
+                setTimeout(() => {
+                    viewDetails.classList.remove('opacity-0');
+                }, 10);
+            }, 300);
+        }
+
+        function submitMobilePayment(e) {
+            e.preventDefault();
+            const sender = document.getElementById('pay-sender').value;
+            const amount = document.getElementById('pay-amount').value;
+            const purpose = document.getElementById('pay-purpose').value; 
+            const trx = document.getElementById('pay-trx').value;
+            
+            // Get Number Type if NexusPay
+            let typeInfo = "";
+            if (activePaymentMethod === 'nexus') {
+                const type = document.getElementById('pay-number-type').value;
+                typeInfo = `%0ANumber Type: ${type}`;
             }
             
-            // Preloader Hide Logic (Success Case)
-            const preloader = document.getElementById('preloader');
-            if(preloader) {
-                preloader.style.opacity = '0';
-                setTimeout(() => preloader.style.display = 'none', 500);
-            }
+            if(!sender || !amount || !trx) return;
+
+            const myWhatsapp = "+8801313831234";
+            const methodTitle = activePaymentMethod ? paymentData[activePaymentMethod].title : 'Mobile';
+            
+            // Message formatting
+            const text = `Hello Shamim,%0A%0AI have made a ${methodTitle} payment.%0A%0A--- Payment Details ---%0ASender Number: ${sender}${typeInfo}%0AAmount: ${amount} BDT%0APurpose: ${purpose}%0ATransaction ID: ${trx}%0A%0APlease confirm.`;
+            
+            window.open(`https://wa.me/${myWhatsapp}?text=${text}`, '_blank');
+            closePaymentModal();
         }
     </script>
 </body>
